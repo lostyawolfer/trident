@@ -6,7 +6,7 @@ execute as @a[scores={blood.toggle=1}] at @s run scoreboard players set @s blood
 execute as @a[scores={blood.toggle=3..}] at @s run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"включены","color":"green"}]
 execute as @a[scores={blood.toggle=3..}] at @s run scoreboard players set @s blood.toggle 0
 execute as @a[scores={blood.toggle=..-1}] at @s run scoreboard players set @s blood.toggle 0
-execute as @a[scores={blood.hp=1..}] at @s run function trident:blood_particles/low_health
+execute as @a[scores={health=1..}] at @s run function trident:blood_particles/low_health
 execute as @a[scores={blood.dmg=1..}] at @s run function trident:blood_particles/damage
 execute as @a[scores={blood.dmgabs=1..}] at @s run function trident:blood_particles/absorbtion
 execute as @a[scores={blood.death=1..}] at @s run function trident:blood_particles/death
