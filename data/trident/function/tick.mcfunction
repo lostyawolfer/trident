@@ -24,6 +24,36 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 
 
 
+team add deathglow.aqua
+team add deathglow.green
+team add deathglow.dark_green
+team add deathglow.yellow
+team add deathglow.gold
+team add deathglow.warning
+team add deathglow.warning2
+team add deathglow.warning3
+team add deathglow.dead
+
+team modify deathglow.aqua color aqua
+team modify deathglow.green color green
+team modify deathglow.dark_green color dark_green
+team modify deathglow.yellow color yellow
+team modify deathglow.gold color gold
+team modify deathglow.warning color red
+team modify deathglow.warning2 color red
+team modify deathglow.warning3 color red
+team modify deathglow.dead color dark_red
+
+scoreboard objectives add deathglow.timer dummy
+scoreboard objectives add deathglow.warning dummy
+scoreboard objectives add deathglow.death deathCount
+scoreboard objectives add deathglow.itemcount dummy
+
+function trident:death_items_glow/main
+
+
+
+
 execute as @e[type=#arrows] at @s run function trident:arrows/main
 
 scoreboard players enable @a blood.toggle
