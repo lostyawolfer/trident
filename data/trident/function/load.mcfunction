@@ -8,7 +8,7 @@ gamerule doInsomnia false
 
 
 
-
+# command provided by Carped mod (making mobcap less than original for optimisation purposes)
 spawn mobcaps set 40
 
 scoreboard objectives add server dummy
@@ -57,7 +57,6 @@ scoreboard objectives add blood.toggle trigger
 scoreboard objectives add coords.toggle trigger
 
 
-team add deathglow.aqua
 team add deathglow.green
 team add deathglow.dark_green
 team add deathglow.yellow
@@ -67,7 +66,6 @@ team add deathglow.warning2
 team add deathglow.warning3
 team add deathglow.dead
 
-team modify deathglow.aqua color aqua
 team modify deathglow.green color green
 team modify deathglow.dark_green color dark_green
 team modify deathglow.yellow color yellow
