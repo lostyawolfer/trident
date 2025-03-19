@@ -3,6 +3,7 @@ gamerule mobExplosionDropDecay false
 gamerule tntExplosionDropDecay false
 gamerule blockExplosionDropDecay false
 gamerule doInsomnia false
+gamerule playersNetherPortalDefaultDelay 20
 
 # execute unless score dragon_beaten server matches 1 run gamerule disableRaids true
 
