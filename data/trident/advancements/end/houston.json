@@ -1,0 +1,45 @@
+{
+    "__comment": "By Aceplante",
+    "display": {
+    "icon": {
+      "item": "minecraft:elytra",
+      "nbt": "{Damage:431}"
+    },
+    "title": {
+      "translate": "advancements.houston.we_have_a_problem.title"
+    },
+    "description": {
+      "translate": "advancements.houston.we_have_a_problem.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "break_elytra": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 300
+              }
+            }
+          }
+        },
+        "durability": 1,
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

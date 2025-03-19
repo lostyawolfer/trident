@@ -1,3 +1,7 @@
+scoreboard players enable @s coords.toggle
+execute if score @s coords.toggle matches 2 run scoreboard players set @s coords.toggle 0
+execute if score @s coords.toggle matches 1 run return 0
+
 execute unless score time server matches 12542..23460 as @s[y_rotation=-44..45] run function trident:coords_actionbar/macro {compass: S, compass_color: gray, color: yellow, symbol: "☀"}
 execute unless score time server matches 12542..23460 as @s[y_rotation=45..135] run function trident:coords_actionbar/macro {compass: W, compass_color: gray, color: yellow, symbol: "☀"}
 execute unless score time server matches 12542..23460 as @s[y_rotation=-135..-45] run function trident:coords_actionbar/macro {compass: E, compass_color: gray, color: yellow, symbol: "☀"}

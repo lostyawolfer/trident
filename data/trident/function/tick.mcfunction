@@ -33,12 +33,13 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 
 
 function trident:death_items_glow/main
+function trident:death_things/main
 function trident:dimension_nickname/main
 function trident:end_crystals/main
 function trident:end_falling_loop/main
 function trident:stonecutter_damage/main
-
-execute as @e[type=#arrows] at @s run function trident:arrows/main
+execute as @e[type = minecraft:item_frame, tag = !checked] run function trident:break_end_elytras/main
+execute as @e[type = #arrows] at @s run function trident:arrows/main
 
 scoreboard players enable @a blood.toggle
 execute as @a[scores={blood.toggle=1}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"отключены","color":"red"}]

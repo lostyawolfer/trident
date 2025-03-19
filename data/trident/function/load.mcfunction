@@ -107,3 +107,8 @@ bossbar set minecraft:endcrystals color purple
 bossbar set minecraft:endcrystals max 10
 
 scoreboard objectives add crystal_bar dummy
+
+
+scoreboard objectives add ds.d deathCount
+scoreboard objectives add ds.dCount deathCount
+scoreboard objectives add ds.dTitleAnim deathCount
