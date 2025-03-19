@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:cherry_log",
+  "result": {
+    "id": "birchupdate:holed_cherry_log",
+    "count": 2
+  }
+}

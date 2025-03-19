@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:stripped_jungle_log",
+  "result": {
+    "id": "birchupdate:holed_stripped_jungle_log",
+    "count": 2
+  }
+}

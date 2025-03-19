@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "azaleawood:stripped_azalea_log",
+  "result": {
+    "id": "birchupdate:holed_stripped_bamboo_block",
+    "count": 2
+  }
+}

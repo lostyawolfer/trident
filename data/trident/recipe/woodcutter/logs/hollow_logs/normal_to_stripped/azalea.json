@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "birchupdate:holed_bamboo_block",
+  "result": {
+    "id": "birchupdate:holed_stripped_bamboo_block",
+    "count": 1
+  }
+}

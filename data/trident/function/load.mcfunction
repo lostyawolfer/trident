@@ -1,3 +1,14 @@
+gamerule randomTickSpeed 10
+gamerule mobExplosionDropDecay false
+gamerule tntExplosionDropDecay false
+gamerule blockExplosionDropDecay false
+gamerule doInsomnia false
+
+# execute unless score dragon_beaten server matches 1 run gamerule disableRaids true
+
+
+
+
 spawn mobcaps set 40
 
 scoreboard objectives add server dummy

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:spruce_log",
+  "result": {
+    "id": "birchupdate:holed_spruce_log",
+    "count": 2
+  }
+}

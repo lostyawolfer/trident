@@ -1,3 +1,11 @@
+clear @a[tag=unlocked, tag=!unlocked2]
+tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
+
+recipe give @a[tag=!unlocked] *
+tag @a[tag=!unlocked] add unlocked
+
+
+
 execute as @a store result score @s pos.x run data get entity @s Pos[0]
 execute as @a store result score @s pos.y run data get entity @s Pos[1]
 execute as @a store result score @s pos.z run data get entity @s Pos[2]
@@ -27,6 +35,8 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 function trident:death_items_glow/main
 function trident:dimension_nickname/main
 function trident:end_crystals/main
+function trident:end_falling_loop/main
+function trident:stonecutter_damage/main
 
 execute as @e[type=#arrows] at @s run function trident:arrows/main
 

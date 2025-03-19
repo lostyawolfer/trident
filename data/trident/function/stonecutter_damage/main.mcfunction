@@ -1,0 +1,1 @@
+execute as @e[type=!item, type=!experience_orb] at @s if block ~ ~ ~ minecraft:stonecutter run damage @s 3.5 generic

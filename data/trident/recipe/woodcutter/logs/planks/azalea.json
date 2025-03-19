@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#minecraft:azalea_logs",
+  "result": {
+    "id": "azaleawood:azalea_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "azaleawood:azalea_log",
+  "result": {
+    "id": "azaleawood:azalea_wood",
+    "count": 1
+  }
+}

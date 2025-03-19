@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "birchupdate:holed_acacia_log",
+  "result": {
+    "id": "birchupdate:holed_stripped_acacia_log",
+    "count": 1
+  }
+}

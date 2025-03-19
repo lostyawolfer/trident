@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "birchupdate:holed_pale_oak_log",
+  "result": {
+    "id": "birchupdate:holed_stripped_pale_oak_log",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:mangrove_log",
+  "result": {
+    "id": "birchupdate:holed_mangrove_log",
+    "count": 2
+  }
+}
