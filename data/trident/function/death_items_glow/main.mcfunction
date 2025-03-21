@@ -1,5 +1,6 @@
 execute as @a[scores={deathglow.death=1..}] at @s store result score @s deathglow.itemcount if entity @e[type=item,distance=..4]
 execute as @a[scores={deathglow.itemcount=1..}] at @s run function trident:death_items_glow/start_glow
+execute as @a[scores={deathglow.itemcount=1..}] if score @s health matches 1.. run scoreboard players reset @s deathglow.itemcount
 
 execute as @e[tag=deathglow.death, type=item] at @s run function trident:death_items_glow/death_item
 

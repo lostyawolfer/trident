@@ -1,15 +1,14 @@
 {
-    "__comment": "By Aceplante",
     "display": {
     "icon": {
-      "item": "minecraft:elytra",
-      "nbt": "{Damage:431}"
+      "id": "minecraft:elytra",
+      "components": {"damage": 431}
     },
     "title": {
-      "translate": "advancements.houston.we_have_a_problem.title"
+      "translate": "advancements.houston_we_have_a_problem.title"
     },
     "description": {
-      "translate": "advancements.houston.we_have_a_problem.description"
+      "translate": "advancements.houston_we_have_a_problem.description"
     },
     "frame": "goal",
     "show_toast": true,

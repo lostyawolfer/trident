@@ -9,7 +9,7 @@ gamerule playersNetherPortalDefaultDelay 20
 
 
 
-# command provided by Carped mod (making mobcap less than original for optimisation purposes)
+# command provided by Carpet mod (making mobcap less than original for optimisation purposes)
 spawn mobcaps set 40
 
 scoreboard objectives add server dummy
@@ -38,7 +38,9 @@ scoreboard objectives add consts dummy
     scoreboard players set day_starts consts 23460
 
 scoreboard objectives add health health
-    scoreboard objectives modify health displayname "hp"
+    scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
+    scoreboard objectives modify health numberformat styled {"color": "red"}
+
     scoreboard objectives setdisplay below_name health
     scoreboard objectives setdisplay list health
 
