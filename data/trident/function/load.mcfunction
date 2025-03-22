@@ -10,6 +10,16 @@ gamerule keepInventory true
 
 
 
+scoreboard objectives add randomtp dummy
+
+setworldspawn 24000 320 24000
+setblock 24000 319 24000 bedrock
+
+execute in minecraft:overworld run worldborder set 100000
+execute in minecraft:the_nether run worldborder set 100000
+execute in minecraft:the_end run worldborder set 100000
+
+
 # command provided by Carpet mod (making mobcap less than original for optimisation purposes)
 spawn mobcaps set 40
 
@@ -110,10 +120,10 @@ team modify z_logging color dark_gray
 scoreboard objectives add end_crystal_amount dummy
 
 
-bossbar add endcrystals "Кристаллы края"
-bossbar set minecraft:endcrystals style notched_10
-bossbar set minecraft:endcrystals color purple
-bossbar set minecraft:endcrystals max 10
+bossbar add trident:end_crystals {"translate": "trident.bossbar.end_crystals"}
+bossbar set trident:end_crystals style notched_10
+bossbar set trident:end_crystals color purple
+bossbar set trident:end_crystals max 10
 
 scoreboard objectives add crystal_bar dummy
 
@@ -124,3 +134,7 @@ scoreboard objectives add ds.dTitleAnim deathCount
 
 scoreboard objectives add totemofkeeping.death deathCount
 scoreboard objectives add ender_totem.animation_ticker dummy
+
+
+
+scoreboard objectives add warden_numbering dummy

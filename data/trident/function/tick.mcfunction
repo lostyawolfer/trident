@@ -40,7 +40,7 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 execute as @a if data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s add keepInventoryOnce
 execute as @a unless data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s remove keepInventoryOnce
 
-execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce] at @s run function trident:ender_totem/drop
+execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce, gamemode=!spectator] at @s run function trident:ender_totem/drop
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
 
 execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run function trident:ender_totem/animation
@@ -75,3 +75,33 @@ execute as @a[scores={blood.dmgabs=1..}] at @s run function trident:blood_partic
 execute as @a[scores={blood.death=1..}] at @s run function trident:blood_particles/death
 
 execute as @a run function trident:coords_actionbar/show
+
+
+
+
+
+
+scoreboard players reset ! warden_numbering
+execute as @e[type=warden] run function trident:warden_bossbar/counter
+function trident:warden_bossbar/macro {n: 1}
+function trident:warden_bossbar/macro {n: 2}
+function trident:warden_bossbar/macro {n: 3}
+function trident:warden_bossbar/macro {n: 4}
+function trident:warden_bossbar/macro {n: 5}
+function trident:warden_bossbar/macro {n: 6}
+function trident:warden_bossbar/macro {n: 7}
+function trident:warden_bossbar/macro {n: 8}
+function trident:warden_bossbar/macro {n: 9}
+
+
+
+
+execute as @a[tag=!randomtp] at @s run function trident:random_spawn/setup_start
+
+
+execute as @a[nbt={Pos:[24000.5d, 2001d, 24000.5d]}] run tag @s add randomtp.teleporting
+
+execute as @a[tag=randomtp.teleporting] run tag @s remove randomtp
+execute as @a[tag=randomtp.teleporting] run scoreboard players add @s randomtp 1
+execute as @a[tag=randomtp.teleporting] if score @s randomtp matches 2.. run tellraw @s {"translate":"alert.trident.no_spawn"}
+execute as @a[tag=randomtp.teleporting] run tag @s remove randomtp.teleporting
