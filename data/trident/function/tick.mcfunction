@@ -1,3 +1,5 @@
+execute as @a store result score @s health run data get entity @s Health
+
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
 
@@ -30,6 +32,17 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 
 
 
+
+
+
+execute as @a[nbt={Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]}] run tag @s add keepInventoryOnce
+
+execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce] at @s run function trident:ender_totem/drop
+execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
+
+execute as @a[tag= keepInventoryOnce_second_tick] if score @s health matches 1.. at @s run function trident:ender_totem/animation
+execute as @a[tag= keepInventoryOnce_second_tick] if score @s health matches 1.. run tag @s remove keepInventoryOnce_second_tick
+execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce] if score @s health matches 1.. run function trident:ender_totem/keep_inventory_once
 
 
 function trident:death_items_glow/main

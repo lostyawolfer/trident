@@ -37,7 +37,7 @@ scoreboard objectives add consts dummy
     scoreboard players set night_starts consts 12542
     scoreboard players set day_starts consts 23460
 
-scoreboard objectives add health health
+scoreboard objectives add health dummy
     scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
     scoreboard objectives modify health numberformat styled {"color": "red"}
 
@@ -114,3 +114,5 @@ scoreboard objectives add crystal_bar dummy
 scoreboard objectives add ds.d deathCount
 scoreboard objectives add ds.dCount deathCount
 scoreboard objectives add ds.dTitleAnim deathCount
+
+scoreboard objectives add totemofkeeping.death deathCount

@@ -1,0 +1,1 @@
+give @s minecraft:totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}, !minecraft:death_protection] 1
