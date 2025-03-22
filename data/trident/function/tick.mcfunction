@@ -1,6 +1,6 @@
-execute as @a store result score @s health run data get entity @s Health 1000
-scoreboard players add @a health 999
-execute as @a run scoreboard players operation @s health /= 1000 consts
+execute as @a store result score @s health run data get entity @s Health 100
+scoreboard players add @a health 99
+execute as @a run scoreboard players operation @s health /= 100 consts
 
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2

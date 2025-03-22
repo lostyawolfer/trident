@@ -42,9 +42,10 @@ scoreboard objectives add consts dummy
 scoreboard objectives add health dummy
     scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
     scoreboard objectives modify health numberformat styled {"color": "red"}
-    scoreboard objectives modify health rendertype hearts
-    scoreboard objectives setdisplay below_name health
-    scoreboard objectives setdisplay list health
+scoreboard objectives add health_display dummy
+    scoreboard objectives modify health_display rendertype hearts
+    scoreboard objectives setdisplay below_name health_display
+    scoreboard objectives setdisplay list health_display
 
 # scoreboard objectives add health_display health
 #     scoreboard objectives modify health_display displayname {"text": "hp", "color": "red"}
