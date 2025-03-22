@@ -11,9 +11,9 @@ effect clear @s minecraft:absorption
 effect clear @s minecraft:regeneration
 effect clear @s minecraft:fire_resistance
 
-particle minecraft:soul_fire_flame ~ ~ ~ 0.5 0.5 0.5 0.05 100 normal @a
+particle minecraft:soul_fire_flame ~ ~1 ~ 0.5 0.5 0.5 0.07 100 normal @a
 stopsound @a[distance=..10] player item.totem.use
-playsound minecraft:item.totem.use player @a ~ ~ ~ 1 1
-playsound minecraft:entity.mooshroom.convert player @a ~ ~ ~ 1 1
+playsound minecraft:item.totem.use player @a ~ ~ ~ 0.5 .75
+playsound minecraft:entity.mooshroom.convert player @a ~ ~ ~ 1 .75
 
 effect give @s minecraft:night_vision 3 0 true

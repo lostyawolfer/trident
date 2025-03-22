@@ -1,0 +1,27 @@
+{
+    "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "components": {"custom_model_data": {"strings": ["ender_totem"]}}
+    },
+    "title": {
+      "translate": "advancements.trident.use_ender_totem.title"
+    },
+    "description": {
+      "translate": "advancements.trident.use_ender_totem.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/totem_of_undying",
+  "criteria": {
+    "nothing": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

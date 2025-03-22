@@ -1,1 +1,1 @@
-give @s minecraft:totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}, !minecraft:death_protection] 1
+give @s minecraft:totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}, !minecraft:death_protection, minecraft:custom_name='{"translate": "trident.ender_totem", "italic": false}'] 1

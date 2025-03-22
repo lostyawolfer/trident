@@ -4,6 +4,7 @@ gamerule tntExplosionDropDecay false
 gamerule blockExplosionDropDecay false
 gamerule doInsomnia false
 gamerule playersNetherPortalDefaultDelay 20
+gamerule keepInventory true
 
 # execute unless score dragon_beaten server matches 1 run gamerule disableRaids true
 
@@ -32,6 +33,7 @@ scoreboard objectives add consts dummy
     scoreboard players set 20 consts 20
     scoreboard players set 30 consts 30
     scoreboard players set 60 consts 60
+    scoreboard players set 100 consts 100
     scoreboard players set 1000 consts 1000
     scoreboard players set 24000 consts 24000
     scoreboard players set night_starts consts 12542
@@ -40,9 +42,13 @@ scoreboard objectives add consts dummy
 scoreboard objectives add health dummy
     scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
     scoreboard objectives modify health numberformat styled {"color": "red"}
-
+    scoreboard objectives modify health rendertype hearts
     scoreboard objectives setdisplay below_name health
     scoreboard objectives setdisplay list health
+
+# scoreboard objectives add health_display health
+#     scoreboard objectives modify health_display displayname {"text": "hp", "color": "red"}
+#     scoreboard objectives modify health_display numberformat styled {"color": "red"}
 
 scoreboard objectives add pos.x dummy
 scoreboard objectives add pos.y dummy
@@ -116,3 +122,4 @@ scoreboard objectives add ds.dCount deathCount
 scoreboard objectives add ds.dTitleAnim deathCount
 
 scoreboard objectives add totemofkeeping.death deathCount
+scoreboard objectives add ender_totem.animation_ticker dummy

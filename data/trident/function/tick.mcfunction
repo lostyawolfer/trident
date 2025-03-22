@@ -1,4 +1,6 @@
-execute as @a store result score @s health run data get entity @s Health
+execute as @a store result score @s health run data get entity @s Health 1000
+scoreboard players add @a health 999
+execute as @a run scoreboard players operation @s health /= 1000 consts
 
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
@@ -35,13 +37,20 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 
 
 
-execute as @a[nbt={Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]}] run tag @s add keepInventoryOnce
+execute as @a if data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s add keepInventoryOnce
+execute as @a unless data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s remove keepInventoryOnce
 
 execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce] at @s run function trident:ender_totem/drop
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
 
-execute as @a[tag= keepInventoryOnce_second_tick] if score @s health matches 1.. at @s run function trident:ender_totem/animation
-execute as @a[tag= keepInventoryOnce_second_tick] if score @s health matches 1.. run tag @s remove keepInventoryOnce_second_tick
+execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run function trident:ender_totem/animation
+execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
+execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
+execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
+execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. run scoreboard players reset @s ender_totem.animation_ticker
+
+execute as @a[scores={ender_totem.animation_ticker=1..}] if score @s health matches 1.. run scoreboard players add @s ender_totem.animation_ticker 1
+
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce] if score @s health matches 1.. run function trident:ender_totem/keep_inventory_once
 
 
