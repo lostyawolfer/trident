@@ -5,15 +5,18 @@ gamerule blockExplosionDropDecay false
 gamerule doInsomnia false
 gamerule playersNetherPortalDefaultDelay 20
 gamerule keepInventory true
+gamerule spawnRadius 0
 
 # execute unless score dragon_beaten server matches 1 run gamerule disableRaids true
 
 
 
 scoreboard objectives add randomtp dummy
+scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since_death
 
-setworldspawn 24000 320 24000
+forceload add 24000 24000
 setblock 24000 319 24000 bedrock
+setworldspawn 24000 320 24000
 
 execute in minecraft:overworld run worldborder set 100000
 execute in minecraft:the_nether run worldborder set 100000
@@ -52,7 +55,7 @@ scoreboard objectives add consts dummy
 scoreboard objectives add health dummy
     scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
     scoreboard objectives modify health numberformat styled {"color": "red"}
-scoreboard objectives add health_display dummy
+scoreboard objectives add health_display health
     scoreboard objectives modify health_display rendertype hearts
     scoreboard objectives setdisplay below_name health_display
     scoreboard objectives setdisplay list health_display
@@ -149,3 +152,6 @@ scoreboard objectives add end_gateway.delay dummy
 scoreboard objectives add end_gateway.savedX dummy
 scoreboard objectives add end_gateway.savedY dummy
 scoreboard objectives add end_gateway.savedZ dummy
+
+
+scoreboard objectives add dragon_killed.trigger minecraft.killed:minecraft.ender_dragon

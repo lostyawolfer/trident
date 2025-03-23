@@ -103,33 +103,33 @@ function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_heal
 function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 20}
 
 
-scoreboard players reset ! giant_numbering
-execute as @e[type=giant] run function trident:mob_bossbar/counter {mob: giant}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 1}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 2}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 3}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 4}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 5}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 6}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 7}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 8}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 9}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 10}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 11}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 12}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 13}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 14}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 15}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 16}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 17}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 18}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 19}
-function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 20}
+# scoreboard players reset ! giant_numbering
+# execute as @e[type=giant] run function trident:mob_bossbar/counter {mob: giant}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 1}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 2}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 3}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 4}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 5}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 6}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 7}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 8}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 9}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 10}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 11}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 12}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 13}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 14}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 15}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 16}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 17}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 18}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 19}
+# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 20}
 
 
 
 
-
+execute as @a[scores={time_since_death=..20}] at @s if predicate trident:on_spawn_bedrock run tag @s remove randomtp
 execute as @a[tag=!randomtp] at @s run function trident:random_spawn/setup_start
 
 
