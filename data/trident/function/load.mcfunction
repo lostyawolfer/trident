@@ -138,3 +138,6 @@ scoreboard objectives add ender_totem.animation_ticker dummy
 
 
 scoreboard objectives add warden_numbering dummy
+scoreboard objectives add warden_anger dummy
+
+scoreboard objectives add giant_numbering dummy
