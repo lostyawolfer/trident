@@ -1,5 +1,6 @@
 # trident!!!!
-i have a mc server, and i had id for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp
+i have a mc server, and i had id for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp and do some more!<br>
+the main thing here is that we play with mods, but i want them to FEEL LIKE UPDATES instead of mods, so parity between all the feautres, all the necessary translations, and sometimes i have to fix obviously strange non-vanilla behavior to make it more "minecraftey" so to speak. so i'm trying to "fix" mods by modding them with a datapack. very genius of me lol
 
 ## dependencies
 - carpet
@@ -46,6 +47,8 @@ i have a mc server, and i had id for quite some time now. i had some custom twea
 - copper hopper minecart recipe is now shapeless
 - copper hopper recipe is now standalone instead of relying on vanilla minecraft:hopper
 - negated better birch forest's strange sky, grass and water color changes
+- better birch forest has a hollow option for bamboo blocks, but i changed that to azalea logs
+    - this is mostly motivated by how it doesn't have hollow logs for nether woods, and i thought bamboo block wasn't worthy of it either, considering it wasn't even exactly an actual wood type; instead, because i have a special tree type mod, i thought to add a parity thingy for it to immerse more
 
 ## todo
 - better birch forest
