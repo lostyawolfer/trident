@@ -141,3 +141,11 @@ scoreboard objectives add warden_numbering dummy
 scoreboard objectives add warden_anger dummy
 
 scoreboard objectives add giant_numbering dummy
+
+
+scoreboard objectives add end_gateway.activated dummy
+scoreboard objectives add end_gateway.delay dummy
+
+scoreboard objectives add end_gateway.savedX dummy
+scoreboard objectives add end_gateway.savedY dummy
+scoreboard objectives add end_gateway.savedZ dummy

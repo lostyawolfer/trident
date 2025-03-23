@@ -43,15 +43,15 @@ execute as @a unless data entity @s {Inventory:[{id: "minecraft:totem_of_undying
 execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce, gamemode=!spectator] at @s run function trident:ender_totem/drop
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
 
-execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run function trident:ender_totem/animation
-execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
-execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
-execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
+execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run function trident:ender_totem/animation
+execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
+execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
+execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
 execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. run scoreboard players reset @s ender_totem.animation_ticker
 
 execute as @a[scores={ender_totem.animation_ticker=1..}] if score @s health matches 1.. run scoreboard players add @s ender_totem.animation_ticker 1
 
-execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce] if score @s health matches 1.. run function trident:ender_totem/keep_inventory_once
+execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce, tag=!keepInventory] if score @s health matches 1.. run function trident:ender_totem/keep_inventory_once
 
 
 function trident:death_items_glow/main
@@ -139,3 +139,18 @@ execute as @a[tag=randomtp.teleporting] run tag @s remove randomtp
 execute as @a[tag=randomtp.teleporting] run scoreboard players add @s randomtp 1
 execute as @a[tag=randomtp.teleporting] if score @s randomtp matches 2.. run tellraw @s {"translate":"alert.trident.no_spawn"}
 execute as @a[tag=randomtp.teleporting] run tag @s remove randomtp.teleporting
+
+
+
+
+execute as @a[scores={end_gateway.delay=1..}] run scoreboard players add @s end_gateway.delay 1
+execute as @a[scores={end_gateway.delay=5..}] at @s if entity @s[predicate=trident:on_obsidian_platform] run function trident:end_gateway_warp/tp_init
+execute as @a[scores={end_gateway.delay=5..}] run scoreboard players reset @s end_gateway.delay
+
+
+execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/save
+execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
+execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock run kill @s
+execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/clear
+execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
+execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run kill @s

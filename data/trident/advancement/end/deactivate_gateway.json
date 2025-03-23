@@ -1,0 +1,24 @@
+{
+    "parent": "trident:end/activate_gateway",
+    "display": {
+        "icon": {
+          "id": "minecraft:chorus_fruit"
+        },
+        "description": {
+          "translate": "advancements.trident.break_end_gateway_warp.description"
+        },
+        "title": {
+          "translate": "advancements.trident.break_end_gateway_warp.title"
+        },        
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "function": {
+            "trigger": "minecraft:impossible"
+          }
+    }
+  }
+  

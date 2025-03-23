@@ -1,0 +1,27 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "stepping_on": {
+            "position": {
+                "x": {
+                    "min": 98,
+                    "max": 102
+                },
+                "y": {
+                    "min": 47.5,
+                    "max": 49
+                },
+                "z": {
+                    "min": -2,
+                    "max": 2
+                }
+            },
+            "block": {
+                "blocks": [
+                    "minecraft:obsidian"
+                ]
+            }
+        }
+    }
+}

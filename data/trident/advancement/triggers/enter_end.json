@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "entered_end": {
+          "conditions": {
+            "to": "minecraft:the_end"
+          },
+          "trigger": "minecraft:changed_dimension"
+        }
+    },
+    "rewards": {
+      "function": "trident:end_gateway_warp/enter_end"
+    }
+  }
