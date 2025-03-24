@@ -1,5 +1,5 @@
 # trident!!!!
-i have a mc server, and i had id for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp and do some more!<br>
+i have a mc server, and i had it for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp and do some more!<br>
 the main thing here is that we play with mods, but i want them to FEEL LIKE UPDATES instead of mods, so parity between all the feautres, all the necessary translations, and sometimes i have to fix obviously strange non-vanilla behavior to make it more "minecraftey" so to speak. so i'm trying to "fix" mods by modding them with a datapack. very genius of me lol
 
 ## dependencies
