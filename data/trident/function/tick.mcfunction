@@ -43,11 +43,11 @@ execute as @a unless data entity @s {Inventory:[{id: "minecraft:totem_of_undying
 execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepInventoryOnce, gamemode=!spectator] at @s run function trident:ender_totem/drop
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
 
-execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run function trident:ender_totem/animation
-execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
-execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
-execute as @a[scores={ender_totem.animation_ticker=10..}, gamemode=!creative] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
-execute as @a[scores={ender_totem.animation_ticker=10..}] if score @s health matches 1.. run scoreboard players reset @s ender_totem.animation_ticker
+execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run function trident:ender_totem/animation
+execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
+execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
+execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
+execute as @a[scores={ender_totem.animation_ticker=20..}] if score @s health matches 1.. run scoreboard players reset @s ender_totem.animation_ticker
 
 execute as @a[scores={ender_totem.animation_ticker=1..}] if score @s health matches 1.. run scoreboard players add @s ender_totem.animation_ticker 1
 
