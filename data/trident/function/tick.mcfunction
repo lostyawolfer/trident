@@ -1,6 +1,6 @@
-execute as @a store result score @s health run data get entity @s Health 100
-scoreboard players add @a health 99
-execute as @a run scoreboard players operation @s health /= 100 consts
+# execute as @a store result score @s health run data get entity @s Health 100
+# scoreboard players add @a health 99
+# execute as @a run scoreboard players operation @s health /= 100 consts
 
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
@@ -10,9 +10,9 @@ tag @a[tag=!unlocked] add unlocked
 
 
 
-execute as @a store result score @s pos.x run data get entity @s Pos[0]
-execute as @a store result score @s pos.y run data get entity @s Pos[1]
-execute as @a store result score @s pos.z run data get entity @s Pos[2]
+# execute as @a store result score @s pos.x run data get entity @s Pos[0]
+# execute as @a store result score @s pos.y run data get entity @s Pos[1]
+# execute as @a store result score @s pos.z run data get entity @s Pos[2]
 
 scoreboard players add lifespan server 1
 execute store result score time server run time query daytime
@@ -44,7 +44,7 @@ execute as @a[scores={totemofkeeping.death=1..}, tag=!keepInventory, tag=!keepIn
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventory] run scoreboard players reset @s totemofkeeping.death
 
 execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run function trident:ender_totem/animation
-execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run advancement grant @s only trident:end/ender_totem
+execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run advancement grant @s only trident:adventure/ender_totem
 execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run clear @s totem_of_undying[minecraft:custom_model_data={strings:["ender_totem"]}] 1
 execute as @a[scores={ender_totem.animation_ticker=20..}, gamemode=!creative] if score @s health matches 1.. at @s run tellraw @s {"translate": "trident.chat.ender_totem_used", "color": "dark_aqua"}
 execute as @a[scores={ender_totem.animation_ticker=20..}] if score @s health matches 1.. run scoreboard players reset @s ender_totem.animation_ticker
@@ -63,18 +63,18 @@ function trident:stonecutter_damage/main
 execute as @e[type = minecraft:item_frame, tag = !checked] run function trident:break_end_elytras/main
 execute as @e[type = #arrows] at @s run function trident:arrows/main
 
-scoreboard players enable @a blood.toggle
-execute as @a[scores={blood.toggle=1}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"отключены","color":"red"}]
-execute as @a[scores={blood.toggle=1}] run scoreboard players set @s blood.toggle 2
-execute as @a[scores={blood.toggle=3..}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"включены","color":"green"}]
-execute as @a[scores={blood.toggle=3..}] run scoreboard players set @s blood.toggle 0
-execute as @a[scores={blood.toggle=..-1}] run scoreboard players set @s blood.toggle 0
-execute as @a[scores={health=1..}] at @s run function trident:blood_particles/low_health
+# scoreboard players enable @a blood.toggle
+# execute as @a[scores={blood.toggle=1}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"отключены","color":"red"}]
+# execute as @a[scores={blood.toggle=1}] run scoreboard players set @s blood.toggle 2
+# execute as @a[scores={blood.toggle=3..}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"включены","color":"green"}]
+# execute as @a[scores={blood.toggle=3..}] run scoreboard players set @s blood.toggle 0
+# execute as @a[scores={blood.toggle=..-1}] run scoreboard players set @s blood.toggle 0
+execute as @a[scores={health=1..6}] at @s run function trident:blood_particles/low_health
 execute as @a[scores={blood.dmg=1..}] at @s run function trident:blood_particles/damage
 execute as @a[scores={blood.dmgabs=1..}] at @s run function trident:blood_particles/absorbtion
 execute as @a[scores={blood.death=1..}] at @s run function trident:blood_particles/death
 
-execute as @a run function trident:coords_actionbar/show
+# execute as @a run function trident:coords_actionbar/show
 
 
 
@@ -90,41 +90,41 @@ function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_heal
 function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 7}
 function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 8}
 function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 9}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 10}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 11}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 12}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 13}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 14}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 15}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 16}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 17}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 18}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 19}
-function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 20}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 10}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 11}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 12}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 13}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 14}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 15}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 16}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 17}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 18}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 19}
+# function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_health: 5000, color: blue, n: 20}
 
 
-# scoreboard players reset ! giant_numbering
-# execute as @e[type=giant] run function trident:mob_bossbar/counter {mob: giant}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 1}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 2}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 3}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 4}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 5}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 6}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 7}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 8}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 9}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 10}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 11}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 12}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 13}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 14}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 15}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 16}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 17}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 18}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 19}
-# function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 20}
+# # scoreboard players reset ! giant_numbering
+# # execute as @e[type=giant] run function trident:mob_bossbar/counter {mob: giant}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 1}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 2}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 3}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 4}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 5}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 6}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 7}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 8}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 9}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 10}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 11}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 12}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 13}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 14}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 15}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 16}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 17}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 18}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 19}
+# # function trident:mob_bossbar/macro {mob: giant, distance: ..100, max_health: 1000, color: green, n: 20}
 
 
 

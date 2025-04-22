@@ -18,4 +18,4 @@ playsound minecraft:entity.mooshroom.convert player @a ~ ~ ~ 1 .75
 
 effect give @s minecraft:night_vision 3 0 true
 
-advancement grant @s only trident:adventure/ender_totem
+#advancement grant @s only trident:adventure/ender_totem

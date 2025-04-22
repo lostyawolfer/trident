@@ -24,7 +24,7 @@ execute in minecraft:the_end run worldborder set 100000
 
 
 # command provided by Carpet mod (making mobcap less than original for optimisation purposes)
-spawn mobcaps set 40
+spawn mobcaps set 20
 
 scoreboard objectives add server dummy
 

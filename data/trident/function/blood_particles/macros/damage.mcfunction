@@ -1,2 +1,2 @@
-$execute if score @s blood.dmg matches $(range) run particle dust{color: [1, 0, 0], scale: 1} ~ ~1 ~ .3 .5 .3 0 $(dust) normal @a[scores={blood.toggle=0}]
-$execute if score @s blood.dmg matches $(range) run particle block{block_state:redstone_block} ~ ~1 ~ .3 .5 .3 0 $(block) normal @a[scores={blood.toggle=0}]
+$execute if score @s blood.dmg matches $(range) run particle dust{color: [1, 0, 0], scale: 1} ~ ~1 ~ .3 .5 .3 0 $(dust) normal
+$execute if score @s blood.dmg matches $(range) run particle block{block_state:redstone_block} ~ ~1 ~ .3 .5 .3 0 $(block) normal
