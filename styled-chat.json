@@ -1,0 +1,83 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 3,
+  "_comment": "Before changing anything, see https://github.com/Patbox/StyledChat#configuration",
+  "text_formatting": {
+    "legacy_formatting": false,
+    "parse_links": true,
+    "parse_mentions": true,
+    "markdown": true,
+    "respect_colors_client_setting": true
+  },
+  "auto_completion": {
+    "tags": false,
+    "tag_aliases": false,
+    "emoticons": true
+  },
+  "default": {
+    "display_name": "${default}",
+    "message_formats": {
+      "chat": "${player} <gray>><reset> ${message}",
+      "joined_the_game": "<dark_green>→ <green>${player} зашёл</green>",
+      "joined_after_name_change": "<dark_green>→ <green>${player} <dark_green>(aka ${old_name})<green>зашёл</green",
+      "joined_for_first_time": "<dark_green>→ <green>${player} зашёл (впервые!)</green>",
+      "left_game": "<dark_red>← <red>${player} ливнул</red>",
+      "base_death": "<dark_red>☠ <red>${default_message}",
+      "advancement_task": "<dark_green><bold>✔</bold> <green>${player} получил ачивку ${advancement}</green>",
+      "advancement_challenge": "<dark_green><bold>✔</bold> <gr:light_purple:dark_purple>${player} прошёл челлендж ${advancement}</gr>",
+      "advancement_goal": "<dark_green><bold>✔</bold> <gr:yellow:gold>${player} достиг цели ${advancement}</gr>",
+      "sent_team_chat": "<lang:'chat.type.team.sent':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
+      "received_team_chat": "<lang:'chat.type.team.text':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
+      "sent_private_message": "<gray><italic><lang:commands.message.display.outgoing:'${receiver}':'${message}'>",
+      "received_private_message": "<gray><italic><lang:commands.message.display.incoming:'${sender}':'${message}'>",
+      "say_command": "<gold>$ server > <yellow>${message}",
+      "me_command": "<italic><gray>*${player} ${message}*</gray>",
+      "pet_death": "${default_message}"
+    },
+    "link_style": "<underline><c:#7878ff>${link}",
+    "mention_style": "<gr:aqua:dark_aqua>%player:displayname%",
+    "spoiler_style": "<gray>${spoiler}",
+    "spoiler_symbol": "▌",
+    "formatting": {
+      "dark_red": false,
+      "green": false,
+      "underline": true,
+      "dark_green": false,
+      "black": false,
+      "yellow": false,
+      "bold": true,
+      "italic": true,
+      "dark_blue": false,
+      "dark_purple": false,
+      "gold": false,
+      "red": false,
+      "aqua": false,
+      "gray": true,
+      "light_purple": false,
+      "blue": false,
+      "white": false,
+      "dark_aqua": false,
+      "dark_gray": false,
+      "spoiler": true,
+      "strikethrough": true
+    },
+    "emoticons": {
+      "$emojibase:builtin:joypixels": "${emoji}",
+      "shrug": "¯\\\\_(ツ)_/¯",
+      "table": "(╯°□°）╯︵ ┻━┻",
+      "sword": "🗡",
+      "bow": "🏹",
+      "trident": "🔱",
+      "rod": "🎣",
+      "potion": "🧪",
+      "shears": "✂",
+      "bucket": "🪣",
+      "bell": "🔔",
+      "item": "<gr:light_purple:dark_purple>[%player:equipment_slot mainhand%]",
+      "pos": "<gr:green:dark_green>%player:pos_x% %player:pos_y% %player:pos_z%",
+      "coords": "<gr:green:dark_green>%player:pos_x% %player:pos_y% %player:pos_z%",
+      "корды": "<gr:green:dark_green>%player:pos_x% %player:pos_y% %player:pos_z%"
+    },
+    "custom_message_types": {}
+  },
+  "styles": []
+}

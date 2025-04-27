@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "base_power": 0.7,
+  "enchantment_multipliers": {
+    "minecraft:power": 1.5,
+    "minecraft:piercing": 2.0,
+    "minecraft:punch": 2.5,
+    "minecraft:knockback": 2.0
+  }
+}
