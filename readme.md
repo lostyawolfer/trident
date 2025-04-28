@@ -53,11 +53,11 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - small birch trees be the default with big ones being rare (kinda like oak)
 - all of birch trees still use the vanilla minecraft:birch_leaves block
 - birchupdate:birch_leaves block is now a "flowering birch leaves" instead which will be a rare decor for some birch trees
+- birch forests from birchupdate no longer spawn pink petals
+- purple petals in birch forests are significantly rarer
 
 ## todo
 - better birch forest
-    - remove pink petals from birch forests
-    - make purple petals significantly rarer
     - add more flower types to the birch biomes
 - better ender dragon
 - get all of YUNG's cool structures to work using just datapack logic
