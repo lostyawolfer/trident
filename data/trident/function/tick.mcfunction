@@ -1,6 +1,13 @@
-# execute as @a store result score @s health run data get entity @s Health 100
-# scoreboard players add @a health 99
-# execute as @a run scoreboard players operation @s health /= 100 consts
+execute if score started server matches 1 run gamerule doDaylightCycle true
+execute if score started server matches 1 run gamerule doWeatherCycle true
+execute if score started server matches 1 run gamerule doMobSpawning true
+execute if score started server matches 1 run gamerule fallDamage true
+execute if score started server matches 1 run scoreboard players set started server 2
+
+
+execute as @a store result score @s health run data get entity @s Health 100
+scoreboard players add @a health 99
+execute as @a run scoreboard players operation @s health /= 100 consts
 
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
@@ -8,6 +15,8 @@ tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
 recipe give @a[tag=!unlocked] *
 tag @a[tag=!unlocked] add unlocked
 
+
+execute unless score started server matches 1.. run return run function trident:before_start_tick
 
 
 # execute as @a store result score @s pos.x run data get entity @s Pos[0]
@@ -130,7 +139,7 @@ function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_heal
 
 
 execute as @a[scores={time_since_death=..20}] at @s if predicate trident:on_spawn_bedrock run tag @s remove randomtp
-execute as @a[tag=!randomtp] at @s run function trident:random_spawn/setup_start
+execute if entity @a[tag=!randomtp] as @a at @s run tp @s @s
 
 
 execute as @a[nbt={Pos:[24000.5d, 2001d, 24000.5d]}] run tag @s add randomtp.teleporting

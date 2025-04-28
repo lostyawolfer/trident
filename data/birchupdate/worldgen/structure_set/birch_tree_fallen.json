@@ -1,0 +1,39 @@
+{
+  "structures": [
+    {
+      "structure": "birchupdate:birch_tree_fallen_01",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_02",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_03",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_04",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_05",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_06",
+      "weight": 1
+    },
+    {
+      "structure": "birchupdate:birch_tree_fallen_07",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2111039813,
+    "frequency_reduction_method": "default",
+    "spacing": 5,
+    "separation": 2
+  }
+}

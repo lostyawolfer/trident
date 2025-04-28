@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "get_birch_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "Get your first Birch Log",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:birch_log"
+    },
+    "show_toast": false,
+    "title": "Better Birch Forests"
+  },
+  "requirements": [
+    [
+      "get_birch_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

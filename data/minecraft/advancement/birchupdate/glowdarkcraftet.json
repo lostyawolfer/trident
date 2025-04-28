@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:birchupdate/root",
+  "criteria": {
+    "glow_dark_block": {
+      "conditions": {
+        "location": [
+          {
+            "block": "birchupdate:glow_dark",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "glow_dark_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "birchupdate:glow_dark"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Craft and Place a Glow in the Dark Block",
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "birchupdate:glow_dark"
+    },
+    "title": "Who needs Daylight Sensors?"
+  },
+  "requirements": [
+    [
+      "glow_dark_block"
+    ],
+    [
+      "glow_dark_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -8,6 +8,17 @@
         {
           "type": "minecraft:item",
           "name": "birchupdate:corn_dog",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 5.0
+              }
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
