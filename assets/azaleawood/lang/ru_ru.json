@@ -1,0 +1,24 @@
+{
+  "block.azaleawood.azalea_log": "Бревно азалии",
+  "block.azaleawood.azalea_wood": "Азалия",
+  "block.azaleawood.stripped_azalea_log": "Обтёсанное бревно азалии",
+  "block.azaleawood.stripped_azalea_wood": "Обтёсанная древесина азалии",
+  "block.azaleawood.azalea_planks": "Азалиевые доски",
+  "block.azaleawood.azalea_stairs": "Азалиевые ступеньки",
+  "block.azaleawood.azalea_slab": "Азалиевая плита",
+  "block.azaleawood.azalea_fence": "Азалиевый забор",
+  "block.azaleawood.azalea_fence_gate": "Азалиевая калитка",
+  "block.azaleawood.azalea_trapdoor": "Азалиевый люк",
+  "block.azaleawood.azalea_door": "Азалиевая дверь",
+  "block.azaleawood.azalea_sign": "Азалиевая табличка",
+  "block.azaleawood.azalea_wall_sign": "Азалиевая табличка",
+  "block.azaleawood.azalea_hanging_sign": "Азалиевая подвесная табличка",
+  "block.azaleawood.azalea_wall_hanging_sign": "Азалиевая подвесная табличка",
+  "block.azaleawood.azalea_pressure_plate": "Азалиевая нажимная плита",
+  "block.azaleawood.azalea_button": "Азалиевая кнопка",
+  "item.azaleawood.azalea_boat": "Азалиевая лодка",
+  "item.azaleawood.azalea_chest_boat": "Азалиевая грузовая лодка",
+
+  "block.minecraft.azalea": "Саженец азалии",
+  "block.minecraft.flowering_azalea": "Цветущий саженец азалии"
+}

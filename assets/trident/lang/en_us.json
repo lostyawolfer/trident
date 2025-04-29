@@ -1,0 +1,16 @@
+{
+    "trident.ender_totem": "Totem of Keeping",
+    "advancements.trident.use_ender_totem.title": "Such a casual",
+    "advancements.trident.use_ender_totem.description": "Use a Totem of Keeping, which lets you keep your inventory after death",
+    "trident.chat.ender_totem_used": "A Totem of Keeping was used",
+
+    "advancements.trident.break_elytra.title": "Houston, we have a problem",
+    "advancements.trident.break_elytra.description": "Break an elytra at a height over 300",
+
+    "trident.bossbar.end_crystals": "End Crystals",
+
+    "advancements.trident.create_end_gateway_warp.title": "Roaming",
+    "advancements.trident.create_end_gateway_warp.description": "Drop a respawn anchor onto an end gateway to teleport there every time you enter The End",
+    "advancements.trident.break_end_gateway_warp.title": "Back To Business",
+    "advancements.trident.break_end_gateway_warp.description": "Drop a chorus fruit onto an end gateway to deactivate your link to it"
+}
