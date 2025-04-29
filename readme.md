@@ -55,19 +55,22 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - birchupdate:birch_leaves block is now a "flowering birch leaves" instead which will be a rare decor for some birch trees
 - birch forests from birchupdate no longer spawn pink petals
 - purple petals in birch forests are significantly rarer
+- white alliums are now rarer in birch forests
+- other flower types are allowed to spawn
+- cattails are now reeds just because i feel like it
+- i could not figure out what the birchupdate:corndog was for so i made it a reed topping
 
 ## todo
 - better birch forest
-    - add more flower types to the birch biomes
+    - make the reed (and its topping) useful
 - better ender dragon
 - get all of YUNG's cool structures to work using just datapack logic
 - add a way to obtain the totem of keeping
-- fix minecraft:sniffer_digging loot table and minecraft:sniffer_diggable_block block tag
-- add an equivalent of skulk vial from jet's better exploration
+- (not sure) *add an equivalent of skulk vial from jet's better exploration*
 - add a mechanic to let me as admin curate if people can or cannot enter end
 - a way to track if the ender dragon is beaten or not
     - if it is not: difficulty normal, no villages allowed to spawn, all villagers get converted to zombie villagers
     - if it is: difficulty hard
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
-- fix wardens' loot table (which lets 'em drop echo shards and enchanted golden apples)
+- fix wardens' loot table (which lets them drop echo shards and enchanted golden apples)
     - *possibly a chance for totem of keeping??*
