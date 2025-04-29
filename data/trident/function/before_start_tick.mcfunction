@@ -18,3 +18,4 @@ gamerule doMobSpawning false
 kill @e[type=!player]
 
 tag @a remove randomtp
+tag @a remove randomtp.temp
