@@ -5,27 +5,31 @@ on:
       - "v*"
 
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-          architecture: 'x64'
+
       - name: checkout
         uses: actions/checkout@v4
 
       - name: build jar
         run: ./build.py
 
-      - name: Release
+      - name: release
         uses: softprops/action-gh-release@v2
         with:
           name: trident-${{ github.ref_name }}
           files: |
             trident-tweaks.jar
           #body_path: RELEASE_NOTES.md
-          draft: true
+          #draft: true
           make_latest: true
