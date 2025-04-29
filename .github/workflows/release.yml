@@ -21,8 +21,12 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
 
+      - name: get version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
       - name: build jar
-        run: ./build.py
+        run: ./build.py ${{ steps.get_version.outputs.VERSION }}
 
       - name: release
         uses: softprops/action-gh-release@v2

@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 # written with gemini 2.5 flash but reviewed and edited
 
+import argparse
+
 import os
+import sys
 import subprocess
 import shutil
 import tempfile
 
-def build_jar(repo_url: str = "https://github.com/lostyawolfer/trident.git",
+def build_jar(ver: str,
+              repo_url: str = "https://github.com/lostyawolfer/trident.git",
               first_branch: str = "master",
               second_branch: str = "resources", 
               jar_name: str = "trident-tweaks.jar"):
@@ -56,38 +60,36 @@ def build_jar(repo_url: str = "https://github.com/lostyawolfer/trident.git",
 
 
 
-        fabric_mod_file_content = """
-            {
-                "schemaVersion": 1,
-                "id": "trident",
-                "version": "0.0.0",
-                "name": "Trident Tweaks",
-                "description": "A mod that has all the little tweaks from Trident SMP. This is a datapack and a resourcepack combo in a mod form. The dependencies here contain all the mods that Trident SMP uses.",
-                "authors": [
-                    "lostyawolfer"
-                ],
-                "contact": {
-                    "homepage": "none",
-                    "sources": "https://github.com/lostyawolfer/trident",
-                    "issues": "none"
-                },
-                "license": "WTFPL",
-                "icon": "logo.png",
-                "environment": "*",
-                "depends": {
-                    "fabricloader": ">=0.16.10",
-                    "minecraft": "=1.21.4",
-                    "java": ">=17",
-                    "fabric-api": ">=0.119.0",
+        fabric_mod_file_content = f"""{{
+    "schemaVersion": 1,
+    "id": "trident",
+    "version": "{ver}",
+    "name": "trident tweaks",
+    "description": "A mod that has all the little tweaks from Trident SMP. This is a datapack and a resourcepack combo in a mod form. The dependencies here contain all the mods that Trident SMP uses.",
+    "authors": [
+        "lostyawolfer"
+    ],
+    "contact": {{
+        "homepage": "none",
+        "sources": "https://github.com/lostyawolfer/trident",
+        "issues": "none"
+    }},
+    "license": "WTFPL",
+    "icon": "logo.png",
+    "environment": "*",
+    "depends": {{
+        "fabricloader": ">=0.16.10",
+        "minecraft": "=1.21.4",
+        "java": ">=17",
+        "fabric-api": ">=0.119.0",
 
-                    "azaleawood": "*",
-                    "birchupdate": "*",
-                    "copperhopper": "*",
-                    "ping-wheel": "*",
-                    "player-locator-plus": "*"
-                }
-            }
-        """
+        "azaleawood": "*",
+        "birchupdate": "*",
+        "copperhopper": "*",
+        "ping-wheel": "*",
+        "player-locator-plus": "*"
+    }}
+}}"""
 
         fabric_mod_file_path = os.path.join(tmpdir, "fabric.mod.json")
         with open(fabric_mod_file_path, "w") as f:
@@ -110,8 +112,15 @@ def build_jar(repo_url: str = "https://github.com/lostyawolfer/trident.git",
             os.chdir(current_dir)
 
 if __name__ == "__main__":
+    _, ver, _ = sys.argv + ['']
+    if ver[0].isnumeric():
+        ver = ver[:1]
+    
+    if ver == '':
+        raise Exception("tell me the version!!!")
 
-    build_jar(repo_url="https://github.com/lostyawolfer/trident",
+    build_jar(ver=ver,
+              repo_url="https://github.com/lostyawolfer/trident",
               first_branch="master",
               second_branch="resources",
               jar_name="trident-tweaks.jar")
