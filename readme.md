@@ -97,8 +97,6 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
     - *possibly a chance for totem of keeping??*
 - achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - achievement challenge "dumb ways to die" for dying in every way possible
-- add easy magic or whatever that mod's called to add enchantment rerolls and stuff
-- maybe add variants for crafting tables chests etc bc why not (obv if possible parity for azalea wood set)
 - add a fancy onboarding room for starting the server for the first time
     - timers and stuff
 - make sure all the gamerules that you want are followed

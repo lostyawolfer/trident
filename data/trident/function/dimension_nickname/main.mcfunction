@@ -56,3 +56,8 @@ execute if score logging_animation server matches 0..1 run team modify z_logging
 execute if score logging_animation server matches 2..3 run team modify z_logging prefix [{"text":"•","color":"#005B5B"},{"text":"•","color":"aqua"},{"text":"•","color":"#005B5B"},{"text":" "}]
 execute if score logging_animation server matches 4..5 run team modify z_logging prefix [{"text":"•","color":"#005B5B"},{"text":"•","color":"#005B5B"},{"text":"•","color":"aqua"},{"text":" "}]
 execute if score logging_animation server matches 6..7 run team modify z_logging prefix [{"text":"•","color":"#005B5B"},{"text":"•","color":"aqua"},{"text":"•","color":"#005B5B"},{"text":" "}]
+
+
+
+team leave @a[tag=!randomtp]
+team leave @a[tag=randomtp.temp]
