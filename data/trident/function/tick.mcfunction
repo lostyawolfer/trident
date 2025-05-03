@@ -157,9 +157,9 @@ execute as @a[scores={end_gateway.delay=5..}] at @s if entity @s[predicate=tride
 execute as @a[scores={end_gateway.delay=5..}] run scoreboard players reset @s end_gateway.delay
 
 
-execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/save
-execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
-execute as @e[type=item, nbt={Item:{id:"minecraft:respawn_anchor"}}] at @s if predicate trident:on_end_bedrock run kill @s
+execute as @e[type=item, nbt={Item:{id:"end_reborn:crystalline_shard"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/save
+execute as @e[type=item, nbt={Item:{id:"end_reborn:crystalline_shard"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
+execute as @e[type=item, nbt={Item:{id:"end_reborn:crystalline_shard"}}] at @s if predicate trident:on_end_bedrock run kill @s
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/clear
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run kill @s

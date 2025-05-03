@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "copperhopper:copper_hopper_minecart"
+  ],
+  "result": {
+    "id": "copperhopper:copper_hopper"
+  }
+}

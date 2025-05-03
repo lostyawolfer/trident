@@ -2,11 +2,28 @@
 i have a mc server, and i had it for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp and do some more!<br>
 the main thing here is that we play with mods, but i want them to FEEL LIKE UPDATES instead of mods, so parity between all the feautres, all the necessary translations, and sometimes i have to fix obviously strange non-vanilla behavior to make it more "minecraftey" so to speak. so i'm trying to "fix" mods by modding them with a datapack. very genius of me lol
 
-## dependencies
+## actual dependencies
 - carpet
 - better birch forest
 - copper hopper
 - azalea wood set
+- end reborn
+
+## dependencies that are there because it's a part of the mod list
+- ping wheel
+- player locator plus
+- potion cauldron
+- simple voice chat
+- what are they up to
+- (experimental) philips ruins
+- no chat reports
+- sit
+- universal ores
+- connectible chains
+- customizable elytra
+- easy anvils
+- easy magic
+- packet fixer (just in case)
 
 ## current changelog
 - gamerules
@@ -19,7 +36,7 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - worldborder is at 50k / -50k in all directions in all dimensions
 - everyone's first spawn is random within said border (instead of everyone spawning in the same place)
 - everyone's health is displayed under nickname and also in tab
-- wardens have their own bossbars (multiple, actually) (they also change color when warden is angry or not)
+- wardens have their own bossbars (they also change color when warden is angry or not)
 - end crystals in the end have their special bossbar too
 - items can be picked up significantly faster after dropping them
 - items dropped on death have their lifespan expanded and they also glow through walls
@@ -32,9 +49,9 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - elytras that spawn in end cities are always broken, you have to fix them before usage
 - when falling into void in the end you get teleported at the same position to world height limit (and vice versa)
 - my own implementation of someone's (i really don't remember whose idea was that) end gateway warp
-    - when you throw a respawn anchor at an end gateway you become "linked" to it and teleport there every time you enter the end
+    - when you throw a crystalline shard (end reborn) at an end gateway you become "linked" to it and teleport there every time you enter the end
     - to unlink yourself you throw a chorus fruit on any end gateway
-- totem of keeping (which doesn't yet have a way to be obtained) that when is in your inventory (unnecessary to hold it) if you die it pops but you keep your inventory after death
+- totem of keeping that when is in your inventory (not required to hold it) if you die it pops but you keep your inventory after death
 - xp that you drop on death is not less than you had, you retain all the xp there was (instead of 99 -> ~7 you stay at 99 -> 99 levels)
 - when you die you get shown your death count as a title
 - stonecutter deals damage when stepping on it
@@ -59,14 +76,15 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - other flower types are allowed to spawn
 - cattails are now reeds just because i feel like it
 - i could not figure out what the birchupdate:corndog was for so i made it a reed topping
+- end reborn's iron ore and crystalline blocks are now a little more common
+- end reborn's "end remains" structure chest's loot table contains totem of keeping
 
 ## todo
-- better birch forest
-    - make the reed (and its topping) useful
+- make the better birch forest reed (and its topping) useful
 - better ender dragon
 - get all of YUNG's cool structures to work using just datapack logic
-- add a way to obtain the totem of keeping
-- (not sure) *add an equivalent of skulk vial from jet's better exploration*
+- add an equivalent of skulk vial from jet's better exploration?
+- ore distribution from jet's better exploration?
 - add a mechanic to let me as admin curate if people can or cannot enter end
 - a way to track if the ender dragon is beaten or not
     - if it is not: difficulty normal, no villages allowed to spawn, all villagers get converted to zombie villagers
@@ -74,3 +92,14 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
 - fix wardens' loot table (which lets them drop echo shards and enchanted golden apples)
     - *possibly a chance for totem of keeping??*
+- achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
+- achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
+- achievement challenge "dumb ways to die" for dying in every way possible
+- add easy magic or whatever that mod's called to add enchantment rerolls and stuff
+- maybe add variants for crafting tables chests etc bc why not (obv if possible parity for azalea wood set)
+- add a fancy onboarding room for starting the server for the first time
+    - timers and stuff
+- make sure all the gamerules that you want are followed
+- channeling on tridents should have levels that let them have more flexibility, with, for example, channeling IV you can just throw a trident anywhere at any time and regardless of if there is a mob there or not it strikes
+- instead of elytra spawning in end cities it should spawn a single elytra wing
+- wait until end reborn updates with russian and ukrainian translation; wait until it also updates texture of remnant materials (or do it myself)

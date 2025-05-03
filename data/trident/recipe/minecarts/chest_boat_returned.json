@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#minecraft:chest_boats"
+  ],
+  "result": {
+    "id": "minecraft:chest"
+  }
+}

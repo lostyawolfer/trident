@@ -83,11 +83,27 @@ def build_jar(ver: str,
         "java": ">=17",
         "fabric-api": ">=0.119.0",
 
+        "philipsruins": "*",
+
+        "carpet": "*",
+        "nochatreports": "*",
+        "packetfixer": "*",
+        "ping-wheel": "*",
+        "player-locator-plus": "*",
+        "voicechat": "*",
+        "sit": "*",
+        "universal_ores": "*",
+        "watut": "*",
+        
         "azaleawood": "*",
         "birchupdate": "*",
+        "connectiblechains": "*",
         "copperhopper": "*",
-        "ping-wheel": "*",
-        "player-locator-plus": "*"
+        "customizableelytra": "*",
+        "easyanvils": "*",
+        "easymagic": "*",
+        "end_reborn": "*",
+        "potioncauldron": "*"
     }}
 }}"""
 
