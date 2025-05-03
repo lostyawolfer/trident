@@ -10,7 +10,7 @@
     "trident.bossbar.end_crystals": "End Crystals",
 
     "advancements.trident.create_end_gateway_warp.title": "Roaming",
-    "advancements.trident.create_end_gateway_warp.description": "Drop a respawn anchor onto an end gateway to teleport there every time you enter The End",
+    "advancements.trident.create_end_gateway_warp.description": "Drop a crystalline shard onto an end gateway to teleport there every time you enter The End",
     "advancements.trident.break_end_gateway_warp.title": "Back To Business",
     "advancements.trident.break_end_gateway_warp.description": "Drop a chorus fruit onto an end gateway to deactivate your link to it"
 }

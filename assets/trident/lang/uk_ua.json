@@ -1,4 +1,6 @@
 {
+    "container.repair": "Ковадло",
+
     "trident.ender_totem": "Тотем збереження",
     "advancements.trident.use_ender_totem.title": "Калуаліще",
     "advancements.trident.use_ender_totem.description": "Використай тотем збереження, який дозволяє зберегти інвентар після смерті",
@@ -10,7 +12,7 @@
     "trident.bossbar.end_crystals": "Кришталі Енду",
 
     "advancements.trident.create_end_gateway_warp.title": "Київський Метрополітен",
-    "advancements.trident.create_end_gateway_warp.description": "Кинь якір відродження на ворота Енду щоб встановити там місце телепортації при вході в Енд",
+    "advancements.trident.create_end_gateway_warp.description": "Кинь уламок кристаліну на ворота Енду щоб встановити там місце телепортації при вході в Енд",
     "advancements.trident.break_end_gateway_warp.title": "Станція Львівська Площа",
     "advancements.trident.break_end_gateway_warp.description": "Кинь фрукт хорусу на ворота Енду щоб видалити з'єднання"
 }

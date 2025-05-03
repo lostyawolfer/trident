@@ -1,0 +1,25 @@
+{
+  "block.minecraft.banner.base.black": "Чорна основа",
+  "block.minecraft.banner.base.blue": "Синя основа",
+  "block.minecraft.banner.base.brown": "Коричнева основа",
+  "block.minecraft.banner.base.cyan": "Бірюзова основа",
+  "block.minecraft.banner.base.gray": "Сіра основа",
+  "block.minecraft.banner.base.green": "Зелена основа",
+  "block.minecraft.banner.base.light_blue": "Блакитна основа",
+  "block.minecraft.banner.base.light_gray": "Світло-сіра основа",
+  "block.minecraft.banner.base.lime": "Лаймова основа",
+  "block.minecraft.banner.base.magenta": "Пурпурова основа",
+  "block.minecraft.banner.base.orange": "Помаранчева основа",
+  "block.minecraft.banner.base.pink": "Рожева основа",
+  "block.minecraft.banner.base.purple": "Фіолетова основа",
+  "block.minecraft.banner.base.red": "Червона основа",
+  "block.minecraft.banner.base.white": "Біла основа",
+  "block.minecraft.banner.base.yellow": "Жовта основа",
+
+  "customizableelytra.creative_tab": "Барвисті елітри",
+  "item.customizableelytra.cape_hidden": "Плащ приховано",
+  "item.customizableelytra.elytra_wing": "Крило елітри",
+  "item.customizableelytra.glowing_wing": "Світіння",
+  "item.customizableelytra.left_wing": "Ліве крило:",
+  "item.customizableelytra.right_wing": "Праве крило:"
+}

@@ -1,4 +1,6 @@
 {
+    "container.repair": "Наковальня",
+
     "trident.ender_totem": "Тотем сохранения",
     "advancements.trident.use_ender_totem.title": "Казуалище",
     "advancements.trident.use_ender_totem.description": "Используй тотем сохранения, который позволяет тебе сохранить инвентарь после смерти",
@@ -10,7 +12,7 @@
     "trident.bossbar.end_crystals": "Кристаллы Края",
 
     "advancements.trident.create_end_gateway_warp.title": "Лучше, чем кровать",
-    "advancements.trident.create_end_gateway_warp.description": "Брось якорь возрождения на врата Края чтобы установить там место телепортации при входе в Край",
+    "advancements.trident.create_end_gateway_warp.description": "Брось осколок кристаллина на врата Края чтобы установить там место телепортации при входе в Край",
     "advancements.trident.break_end_gateway_warp.title": "Всем пока",
     "advancements.trident.break_end_gateway_warp.description": "Брось хорусовый фрукт на врата Края чтобы снять соединение"
 }
