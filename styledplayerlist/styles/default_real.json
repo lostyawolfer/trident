@@ -8,7 +8,6 @@
   ],
   "list_footer": [
     "<dark_gray>ping <#23A559><bold>%player:ping_colored%</bold><dark_gray>ms         <#23A559><bold>%server:tps_colored%</bold><dark_gray> tps",
-    "<dark_gray>mem <dark_green><bold>%server:used_ram [gb]%</bold><dark_gray>/%server:max_ram [gb]%      <dark_aqua><bold>%world:mob_count%</bold><dark_gray> mobs      <bold>%server:mspt_colored%</bold><dark_gray>/50 mspt",
     "",
     "<gr:aqua:green>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:green:aqua><st>                            </st>-+</gr>"
   ],

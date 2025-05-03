@@ -1,0 +1,12 @@
+{
+  "loadChunks": true,
+  "spamConsole": false,
+  "cartLoadDuration": 30,
+  "movementDuration": 10,
+  "loadMinecarts": true,
+  "loadFurnaceMinecarts": true,
+  "loadChestMinecarts": true,
+  "loadHopperMinecarts": true,
+  "loadTntMinecarts": false,
+  "loadCommandBlockMinecarts": false
+}
