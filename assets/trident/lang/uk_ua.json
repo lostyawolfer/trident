@@ -10,9 +10,23 @@
     "advancements.trident.break_elytra.description": "Зламай елітри на висоті вище ніж 300",
 
     "trident.bossbar.end_crystals": "Кришталі Енду",
+    "trident.title.death_count": "Це була твоя смерть #%s",
 
     "advancements.trident.create_end_gateway_warp.title": "Київський Метрополітен",
     "advancements.trident.create_end_gateway_warp.description": "Кинь уламок кристаліну на ворота Енду щоб встановити там місце телепортації при вході в Енд",
     "advancements.trident.break_end_gateway_warp.title": "Станція Львівська Площа",
-    "advancements.trident.break_end_gateway_warp.description": "Кинь фрукт хорусу на ворота Енду щоб видалити з'єднання"
+    "advancements.trident.break_end_gateway_warp.description": "Кинь фрукт хорусу на ворота Енду щоб видалити з'єднання",
+
+    "advancements.story.die_once.title": "Перша з багатьох",
+    "advancements.story.die_once.description": "Вмри в свій перший раз в цьому світі",
+    "advancements.story.die_ten_times.title": "Десятка з багатьох",
+    "advancements.story.die_ten_times.description": "Вмри в свій десятий раз в цьому світі",
+    "advancements.story.die_hundred_times.title": "Сотня з багатьох",
+    "advancements.story.die_hundred_times.description": "Вмри в свій сотий раз в цьому світі. Ти взагалі грати вмієш?",
+
+    "Restarting": "Перезапуск",
+    "You'll be reconnected automatically": "Тебе автоматично під'єднає",
+
+    "Connecting": "Підключення",
+    "Hang in tight!": "Ще зовсім трохи!"
 }

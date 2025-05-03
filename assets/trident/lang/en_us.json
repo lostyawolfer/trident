@@ -1,16 +1,30 @@
 {
     "trident.ender_totem": "Totem of Keeping",
-    "advancements.trident.use_ender_totem.title": "Such a casual",
+    "advancements.trident.use_ender_totem.title": "Such A Casual",
     "advancements.trident.use_ender_totem.description": "Use a Totem of Keeping, which lets you keep your inventory after death",
     "trident.chat.ender_totem_used": "A Totem of Keeping was used",
 
-    "advancements.trident.break_elytra.title": "Houston, we have a problem",
+    "advancements.trident.break_elytra.title": "Houston, We Have A Problem",
     "advancements.trident.break_elytra.description": "Break an elytra at a height over 300",
 
     "trident.bossbar.end_crystals": "End Crystals",
+    "trident.title.death_count": "This was your death #%s",
 
     "advancements.trident.create_end_gateway_warp.title": "Roaming",
     "advancements.trident.create_end_gateway_warp.description": "Drop a crystalline shard onto an end gateway to teleport there every time you enter The End",
     "advancements.trident.break_end_gateway_warp.title": "Back To Business",
-    "advancements.trident.break_end_gateway_warp.description": "Drop a chorus fruit onto an end gateway to deactivate your link to it"
+    "advancements.trident.break_end_gateway_warp.description": "Drop a chorus fruit onto an end gateway to deactivate your link to it",
+
+    "advancements.story.die_once.title": "First Of Many",
+    "advancements.story.die_once.description": "Die for your first time on this world. You're just getting started.",
+    "advancements.story.die_ten_times.title": "Ten Of Many",
+    "advancements.story.die_ten_times.description": "Die for your tenth time. You'll get used to it.",
+    "advancements.story.die_hundred_times.title": "Hundred Of Many",
+    "advancements.story.die_hundred_times.description": "Die for one hundredth time. Sounds like a skill issue, to be honest.",
+
+    "Restarting": "Restarting",
+    "You'll be reconnected automatically": "You'll be reconnected automatically",
+
+    "Connecting": "Connecting",
+    "Hang in tight!": "Hang in tight!"
 }

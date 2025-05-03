@@ -10,9 +10,23 @@
     "advancements.trident.break_elytra.description": "Сломай элитры на высоте более 300",
 
     "trident.bossbar.end_crystals": "Кристаллы Края",
+    "trident.title.death_count": "Это была твоя %s-я смерть",
 
     "advancements.trident.create_end_gateway_warp.title": "Лучше, чем кровать",
     "advancements.trident.create_end_gateway_warp.description": "Брось осколок кристаллина на врата Края чтобы установить там место телепортации при входе в Край",
     "advancements.trident.break_end_gateway_warp.title": "Всем пока",
-    "advancements.trident.break_end_gateway_warp.description": "Брось хорусовый фрукт на врата Края чтобы снять соединение"
+    "advancements.trident.break_end_gateway_warp.description": "Брось хорусовый фрукт на врата Края чтобы снять соединение",
+
+    "advancements.story.die_once.title": "Первая из многих",
+    "advancements.story.die_once.description": "Умри в свой первый раз. Приветствую на сервере!",
+    "advancements.story.die_ten_times.title": "Десятая из многих",
+    "advancements.story.die_ten_times.description": "Умри в свой десятый раз",
+    "advancements.story.die_hundred_times.title": "Сотая из многих",
+    "advancements.story.die_hundred_times.description": "Умри в свой сотый раз, а потом переосмысли своё умение играть",
+
+    "Restarting": "Перезапуск",
+    "You'll be reconnected automatically": "Тебя автоматически переподключит",
+
+    "Connecting": "Подключение",
+    "Hang in tight!": "Ещё чуть-чуть!"
 }
