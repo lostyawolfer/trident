@@ -23,7 +23,7 @@ execute in minecraft:the_nether run worldborder set 100000
 execute in minecraft:the_end run worldborder set 100000
 
 function trident:random_spawn/schedule
-
+function trident:one_wing_elytra/check_frame
 
 # command provided by Carpet mod (making mobcap less than original for optimisation purposes)
 #tellraw @a "spawn mobcaps set 20"

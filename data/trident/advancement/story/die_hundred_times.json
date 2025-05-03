@@ -1,0 +1,2210 @@
+{
+  "parent": "trident:story/die_ten_times",
+  "criteria": {
+    "death_1": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_2": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_1": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_3": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_2": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_4": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_3": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_5": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_4": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_6": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_5": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_7": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_6": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_8": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_7": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_9": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_8": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_10": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_9": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_11": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_10": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_12": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_11": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_13": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_12": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_14": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_13": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_15": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_14": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_16": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_15": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_17": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_16": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_18": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_17": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_19": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_18": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_20": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_19": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_21": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_20": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_22": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_21": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_23": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_22": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_24": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_23": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_25": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_24": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_26": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_25": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_27": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_26": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_28": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_27": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_29": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_28": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_30": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_29": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_31": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_30": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_32": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_31": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_33": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_32": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_34": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_33": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_35": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_34": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_36": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_35": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_37": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_36": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_38": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_37": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_39": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_38": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_40": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_39": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_41": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_40": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_42": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_41": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_43": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_42": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_44": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_43": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_45": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_44": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_46": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_45": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_47": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_46": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_48": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_47": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_49": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_48": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_50": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_49": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_51": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_50": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_52": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_51": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_53": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_52": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_54": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_53": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_55": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_54": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_56": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_55": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_57": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_56": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_58": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_57": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_59": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_58": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_60": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_59": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_61": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_60": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_62": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_61": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_63": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_62": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_64": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_63": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_65": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_64": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_66": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_65": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_67": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_66": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_68": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_67": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_69": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_68": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_70": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_69": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_71": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_70": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_72": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_71": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_73": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_72": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_74": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_73": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_75": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_74": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_76": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_75": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_77": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_76": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_78": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_77": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_79": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_78": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_80": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_79": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_81": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_80": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_82": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_81": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_83": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_82": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_84": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_83": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_85": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_84": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_86": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_85": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_87": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_86": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_88": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_87": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_89": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_88": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_90": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_89": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_91": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_90": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_92": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_91": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_93": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_92": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_94": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_93": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_95": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_94": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_96": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_95": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_97": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_96": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_98": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_97": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_99": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_98": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    },
+    "death_100": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "trident:story/die_hundred_times": {
+                    "death_99": true
+                  }
+                }
+              },
+              "nbt": "{Health:0f}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.die_hundred_times.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.story.die_hundred_times.title"
+    },
+    "frame": "challenge"
+  }
+}

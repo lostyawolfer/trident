@@ -3,6 +3,8 @@ scoreboard players reset @s totemofkeeping.death
 summon chest_minecart ~ ~ ~ {Silent:1b,Invulnerable:1b,Tags:["inv_1","anti_keep_inv"]}
 summon chest_minecart ~ ~ ~ {Silent:1b,Invulnerable:1b,Tags:["inv_2","anti_keep_inv"]}
 
+clear @s *[minecraft:enchantments={vanishing_curse: 1}]
+
 item replace entity @e[tag=inv_1,tag=anti_keep_inv,type=chest_minecart,distance=0,sort=nearest,limit=1] container.0 from entity @s inventory.0
 item replace entity @e[tag=inv_1,tag=anti_keep_inv,type=chest_minecart,distance=0,sort=nearest,limit=1] container.1 from entity @s inventory.1
 item replace entity @e[tag=inv_1,tag=anti_keep_inv,type=chest_minecart,distance=0,sort=nearest,limit=1] container.2 from entity @s inventory.2

@@ -7,4 +7,4 @@ execute as @a[scores={ds.d=1..}] run scoreboard players set @s ds.d 0
 
 execute as @a[scores={health=0}] run title @s times 0 20 100
 execute as @a[scores={health=0}] run title @s title ""
-execute as @a[scores={health=0}] run title @s subtitle [{"translate":"Это была твоя %s-я смерть","color":"red", "with":[{"bold":true, "score":{"name": "@s", "objective": "ds.dCount"}}]}]
+execute as @a[scores={health=0}] run title @s subtitle [{"translate":"trident.title.death_count","color":"red", "with":[{"bold":true, "score":{"name": "@s", "objective": "ds.dCount"}}]}]
