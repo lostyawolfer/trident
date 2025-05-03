@@ -2,14 +2,15 @@
 i have a mc server, and i had it for quite some time now. i had some custom tweaks, but they were all over the place. this repo is in goal of unifying all the tweaks i've ever done for trident smp and do some more!<br>
 the main thing here is that we play with mods, but i want them to FEEL LIKE UPDATES instead of mods, so parity between all the feautres, all the necessary translations, and sometimes i have to fix obviously strange non-vanilla behavior to make it more "minecraftey" so to speak. so i'm trying to "fix" mods by modding them with a datapack. very genius of me lol
 
-## actual dependencies
+## dependencies
+### actual dependencies
 - carpet
 - better birch forest
 - copper hopper
 - azalea wood set
 - end reborn
 
-## dependencies that are there because it's a part of the mod list
+### dependencies that are there because it's a part of the mod list
 - ping wheel
 - player locator plus
 - potion cauldron
@@ -78,6 +79,8 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - i could not figure out what the birchupdate:corndog was for so i made it a reed topping
 - end reborn's iron ore and crystalline blocks are now a little more common
 - end reborn's "end remains" structure chest's loot table contains totem of keeping
+- instead of elytra spawning in end cities it spawns a single elytra wing that is also deprived of durability
+- achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
 
 ## todo
 - make the better birch forest reed (and its topping) useful
@@ -92,7 +95,6 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
 - fix wardens' loot table (which lets them drop echo shards and enchanted golden apples)
     - *possibly a chance for totem of keeping??*
-- achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
 - achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - achievement challenge "dumb ways to die" for dying in every way possible
 - add easy magic or whatever that mod's called to add enchantment rerolls and stuff
@@ -101,5 +103,4 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
     - timers and stuff
 - make sure all the gamerules that you want are followed
 - channeling on tridents should have levels that let them have more flexibility, with, for example, channeling IV you can just throw a trident anywhere at any time and regardless of if there is a mob there or not it strikes
-- instead of elytra spawning in end cities it should spawn a single elytra wing
 - wait until end reborn updates with russian and ukrainian translation; wait until it also updates texture of remnant materials (or do it myself)
