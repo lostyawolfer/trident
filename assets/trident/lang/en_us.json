@@ -26,5 +26,8 @@
     "You'll be reconnected automatically": "You'll be reconnected automatically",
 
     "Connecting": "Connecting",
-    "Hang in tight!": "Hang in tight!"
+    "Hang in tight!": "Hang in tight!",
+
+    "trident.title.loading_terrain": "loading %s's terrain...",
+    "trident.title.loading_terrain.more": "loading %s's terrain... (+%s)"
 }

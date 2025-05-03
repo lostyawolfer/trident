@@ -28,5 +28,8 @@
     "You'll be reconnected automatically": "Тебе автоматично під'єднає",
 
     "Connecting": "Підключення",
-    "Hang in tight!": "Ще зовсім трохи!"
+    "Hang in tight!": "Ще зовсім трохи!",
+
+    "trident.title.loading_terrain": "завантаження місцевості %s...",
+    "trident.title.loading_terrain.more": "завантаження місцевості %s... (+%s)"
 }
