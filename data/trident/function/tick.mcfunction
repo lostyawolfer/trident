@@ -16,6 +16,8 @@ execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=ra
 function true_ending:tick
 function ender_dragon:exe
 
+execute unless score started server matches 10.. run function trident:before_dragon_tick
+
 
 execute as @a store result score @s health run data get entity @s Health 100
 scoreboard players add @a health 99
@@ -181,3 +183,12 @@ execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if pred
 
 execute as @a[tag=banned] run gamemode spectator @s
 execute as @a[tag=banned] run title @s actionbar {"translate": "you are banned", "color": "red"}
+
+
+
+
+
+execute as @a[scores={dt.kill=1..}] run title @a times 3 70 120
+execute as @a[scores={dt.kill=1..}] run title @a title {"translate":"trident.title.dragon_killed","color":"dark_purple"}
+execute as @a[scores={dt.kill=1..}] run title @a subtitle [{"translate":"trident.title.dragon_killed.sub","color":"light_purple", "with": [{"selector":"@a[scores={dt.kill=1..}]"}]}]
+execute as @a[scores={dt.kill=1..}] run scoreboard players set @s dt.kill 0

@@ -15,6 +15,9 @@ gamerule spawnRadius 0
 
 
 
+scoreboard objectives add dt.kill minecraft.killed:minecraft.ender_dragon
+
+
 scoreboard objectives add randomtp dummy
 scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since_death
 
@@ -165,3 +168,8 @@ scoreboard objectives add end_gateway.savedZ dummy
 
 
 scoreboard objectives add dragon_killed.trigger minecraft.killed:minecraft.ender_dragon
+
+
+scoreboard objectives add end.eyes_used minecraft.used:minecraft.ender_eye
+scoreboard objectives add end.eyes_gain dummy
+scoreboard objectives add end.eyes_gain_temp dummy

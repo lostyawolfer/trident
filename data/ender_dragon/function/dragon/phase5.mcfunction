@@ -7,3 +7,5 @@ scoreboard players set @e[tag=CORE] Tick 0
 
 kill @e[type=phantom]
 kill @e[type=end_crystal]
+
+execute unless score started server matches 10.. run scoreboard players set started server 10
