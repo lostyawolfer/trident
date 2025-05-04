@@ -17,7 +17,7 @@ execute as @e[tag=CORE] if score @s Phase matches 3 if score @s Tick matches 40.
 execute as @e[tag=CORE] if score @s Phase matches 3 if score @s Tick matches 40.. as @e[tag=protected] unless entity @e[tag=ender] run tag @s remove protected
 
 # Phase 1 in init - execute as @e[tag=CORE] if score @s Health.Dummy matches ..75 if score @s Phase matches 1 run function ender_dragon:dragon/phase2
-execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..25 if score @s Phase matches 4 if score @s Tick matches 350 run function ender_dragon:dragon/summon
+execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..25 if score @s Phase matches 4 if score @s Tick matches 600 run function ender_dragon:dragon/summon
 execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..25 if score @s Phase matches 3 if score @s Tick matches 40.. run function ender_dragon:dragon/phase4
 execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..50 if score @s Phase matches 2 if score @s Tick matches 40.. run function ender_dragon:dragon/phase3
 execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..75 if score @s Phase matches 1 if score @s Tick matches 40.. run function ender_dragon:dragon/phase2

@@ -3,26 +3,28 @@ tag @s add ender_dragon
 execute if entity @e[tag=INIT] run function ender_dragon:dragon/phase1
 execute as @e[tag=CORE,tag=INIT] at @s run kill @e[distance=..100,type=minecraft:end_crystal]
 
-execute if score #END User matches 1 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 400
-execute if score #END User matches 1 run data modify entity @s Health set value 400
+execute if score #END User matches 1 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 200
+execute if score #END User matches 1 run data modify entity @s Health set value 200
 
-execute if score #END User matches 2 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 550
-execute if score #END User matches 2 run data modify entity @s Health set value 550
+execute if score #END User matches 2 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 250
+execute if score #END User matches 2 run data modify entity @s Health set value 250
 
-execute if score #END User matches 3 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 700
-execute if score #END User matches 3 run data modify entity @s Health set value 700
+execute if score #END User matches 3 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 300
+execute if score #END User matches 3 run data modify entity @s Health set value 300
 
-execute if score #END User matches 4 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 850
-execute if score #END User matches 4 run data modify entity @s Health set value 850
+execute if score #END User matches 4 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 350
+execute if score #END User matches 4 run data modify entity @s Health set value 350
 
-execute if score #END User matches 5 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 1000
-execute if score #END User matches 5 run data modify entity @s Health set value 1000
+execute if score #END User matches 5 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 400
+execute if score #END User matches 5 run data modify entity @s Health set value 400
 
-execute if score #END User matches 6 run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 1250
-execute if score #END User matches 6 run data modify entity @s Health set value 1250
+execute if score #END User matches 6 run data modify entity @s Attributes[{Name:"max_health"}].Base set value 450
+execute if score #END User matches 6 run data modify entity @s Health set value 450
 
-execute if score #END User matches 7.. run data modify entity @s Attributes[{Name:"generic.max_health"}].Base set value 1500
-execute if score #END User matches 7.. run data modify entity @s Health set value 1500
+execute if score #END User matches 7.. run data modify entity @s Attributes[{Name:"max_health"}].Base set value 500
+execute if score #END User matches 7.. run data modify entity @s Health set value 500
+
+
 
 scoreboard players operation @s Health.Dummy /= @s Health.Temp
 

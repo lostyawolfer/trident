@@ -5,4 +5,5 @@ scoreboard players set @s Tick 0
 scoreboard players set @e[tag=CORE] Phase 0
 scoreboard players set @e[tag=CORE] Tick 0
 
-execute unless score trident dragon_killed matches 1 run schedule function ender_dragon:dragon/server_update 16s
+kill @e[type=phantom]
+kill @e[type=end_crystal]

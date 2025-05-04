@@ -1,3 +1,6 @@
+execute if entity @s[gamemode=spectator] run return 1
+execute if entity @s[gamemode=creative] run return 1
+
 playsound minecraft:entity.blaze.death hostile @a[distance=..64] ~ ~ ~ 2 .6
 playsound minecraft:item.trident.thunder hostile @a[distance=..64] ~ ~ ~ 2 2
 
