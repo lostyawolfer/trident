@@ -30,7 +30,7 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 for some things that i did, i didn't do them myself, but, uhh, i'll be frank, stole them from someone and just added it to the datapack.<br>
 this space is supposed to be a credit space for all of those.
 - [True Ending: Ender Dragon Overhauled](https://modrinth.com/datapack/true-ending/versions) (seriously this thing is a fucking masterpiece)
-- [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, but still it's completely theirs)
+- [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, and made it compatible with 1.21+, but still it's completely theirs)
 (yes i did combine multiple ender dragon modifications so what)
 
 ## current changelog

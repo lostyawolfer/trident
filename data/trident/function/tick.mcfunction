@@ -6,8 +6,15 @@ execute if score started server matches 1 run worldborder warning distance 99999
 execute if score started server matches 1 run gamerule fallDamage true
 execute if score started server matches 1 run scoreboard players set started server 2
 execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=randomtp.temp] run worldborder warning distance 10
+execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=randomtp.temp] run function true_ending:load
+execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=randomtp.temp] run function ender_dragon:init
 execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=randomtp.temp] run fill -9 298 -7 9 319 7 air
 execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=randomtp.temp] run scoreboard players set started server 3
+
+
+
+function true_ending:tick
+function ender_dragon:exe
 
 
 execute as @a store result score @s health run data get entity @s Health 100

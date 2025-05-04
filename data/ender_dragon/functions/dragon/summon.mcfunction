@@ -1,0 +1,2 @@
+execute in minecraft:the_end at @e[limit=1,sort=random,tag=end_crystal_marker] run summon phantom ~ 95 ~ {Health:15f,Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b,Tags:["end_crystal"]}],active_effects:[{id:fire_resistance,amplifier:1b,duration:5120,show_particles:0b},{id:invisibility,amplifier:1b,duration:5120,show_particles:0b}],attributes:[{id:max_health,base:15}]}
+scoreboard players set @s Tick 0

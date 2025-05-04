@@ -1,3 +1,6 @@
+execute if score started server matches 1.. run function true_ending:load
+execute if score started server matches 1.. run function ender_dragon:init
+
 gamerule randomTickSpeed 10
 gamerule mobExplosionDropDecay false
 gamerule tntExplosionDropDecay false
