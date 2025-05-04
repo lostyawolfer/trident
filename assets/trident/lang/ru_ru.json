@@ -31,5 +31,12 @@
     "Hang in tight!": "Ещё чуть-чуть!",
 
     "trident.title.loading_terrain": "загрузка территории %s...",
-    "trident.title.loading_terrain.more": "загрузка территории %s... (+%s)"
+    "trident.title.loading_terrain.more": "загрузка территории %s... (+%s)",
+
+    "trident.title.landing": "приземляемся через %s...",
+
+    "trident.title.dragon_killed": "Дракон повержен!",
+    "trident.title.dragon_killed.sub": "Последний удар нанёс %s",
+
+    "trident.title.not_yet": "Ещё не время."
 }

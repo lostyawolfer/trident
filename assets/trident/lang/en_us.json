@@ -29,5 +29,12 @@
     "Hang in tight!": "Hang in tight!",
 
     "trident.title.loading_terrain": "loading %s's terrain...",
-    "trident.title.loading_terrain.more": "loading %s's terrain... (+%s)"
+    "trident.title.loading_terrain.more": "loading %s's terrain... (+%s)",
+
+    "trident.title.landing": "landing in %s...",
+
+    "trident.title.dragon_killed": "Dragon defeated!",
+    "trident.title.dragon_killed.sub": "%s made the last hit",
+
+    "trident.title.not_yet": "Not yet."
 }
