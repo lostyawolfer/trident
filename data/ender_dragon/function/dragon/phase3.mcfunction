@@ -3,7 +3,7 @@ execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template mi
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template minecraft:pillar_bottom_phase_3 ~-5 67 ~-5
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template minecraft:pillar_top_phase_3 ~-5 96 ~-5
 
-execute as @e[type=minecraft:ender_dragon] run data merge entity @s {CustomName:'[{"text":"","color":"light_purple","italic":false},{"text":"Д","italic": true},{"text": "рак"},{"text":"о","italic": true},{"text": "н к"},{"text":"р","italic": true},{"text": "а"},{"text":"я","obfuscated": true, "italic": true}]'}
+# execute as @e[type=minecraft:ender_dragon] run data merge entity @s {CustomName:'[{"text":"","color":"light_purple","italic":false},{"text":"Д","italic": true},{"text": "рак"},{"text":"о","italic": true},{"text": "н к"},{"text":"р","italic": true},{"text": "а"},{"text":"я","obfuscated": true, "italic": true}]'}
 scoreboard players set @e[tag=CORE] Phase 3
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run summon minecraft:end_crystal ~ 95 ~ {Tags:["end_crystal","protected"]}
 

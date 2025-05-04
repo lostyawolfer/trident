@@ -3,7 +3,7 @@ execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template mi
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template minecraft:pillar_bottom_phase_4 ~-5 67 ~-5
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run place template minecraft:pillar_top_phase_4 ~-5 96 ~-5
 
-execute as @e[type=minecraft:ender_dragon] run data merge entity @s {CustomName:'[{"text":"","color":"dark_purple","italic":true},{"text":"Д","obfuscated": true},{"text": "рак"},{"text":"о","obfuscated": true},{"text": "н к"},{"text":"р","obfuscated": true},{"text": "а"},{"text":"я","obfuscated": true}]'}
+# execute as @e[type=minecraft:ender_dragon] run data merge entity @s {CustomName:'[{"text":"","color":"dark_purple","italic":true},{"text":"Д","obfuscated": true},{"text": "рак"},{"text":"о","obfuscated": true},{"text": "н к"},{"text":"р","obfuscated": true},{"text": "а"},{"text":"я","obfuscated": true}]'}
 scoreboard players set @e[tag=CORE] Phase 4
 execute in minecraft:the_end at @e[tag=end_crystal_marker] run summon phantom ~ 95 ~ {Health:15f,Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b,Tags:["end_crystal"]}],active_effects:[{id:fire_resistance,amplifier:1b,duration:5120,show_particles:0b},{id:invisibility,amplifier:1b,duration:5120,show_particles:0b}],attributes:[{id: max_health, base: 15}]}
 scoreboard players set @s Tick 0

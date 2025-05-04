@@ -92,7 +92,6 @@ this space is supposed to be a credit space for all of those.
 
 ## todo
 - make the better birch forest reed (and its topping) useful
-- better ender dragon
 - get all of YUNG's cool structures to work using just datapack logic
 - add an equivalent of skulk vial from jet's better exploration?
 - ore distribution from jet's better exploration?
@@ -110,3 +109,5 @@ this space is supposed to be a credit space for all of those.
 - make sure all the gamerules that you want are followed
 - channeling on tridents should have levels that let them have more flexibility, with, for example, channeling IV you can just throw a trident anywhere at any time and regardless of if there is a mob there or not it strikes
 - wait until end reborn updates with russian and ukrainian translation; wait until it also updates texture of remnant materials (or do it myself)
+- add whatever that datapack was where it added a structure called a lost library or smth
+- add nullscapes as a part of this mod/datapack
