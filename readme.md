@@ -26,6 +26,13 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - easy magic
 - packet fixer (just in case)
 
+## credits
+for some things that i did, i didn't do them myself, but, uhh, i'll be frank, stole them from someone and just added it to the datapack.<br>
+this space is supposed to be a credit space for all of those.
+- [True Ending: Ender Dragon Overhauled](https://modrinth.com/datapack/true-ending/versions) (seriously this thing is a fucking masterpiece)
+- [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, but still it's completely theirs)
+(yes i did combine multiple ender dragon modifications so what)
+
 ## current changelog
 - gamerules
     - randomTickSpeed = 10
@@ -81,6 +88,7 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - end reborn's "end remains" structure chest's loot table contains totem of keeping
 - instead of elytra spawning in end cities it spawns a single elytra wing that is also deprived of durability
 - achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
+- ender dragon is... well... based.
 
 ## todo
 - make the better birch forest reed (and its topping) useful

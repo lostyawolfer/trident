@@ -144,7 +144,7 @@ function trident:mob_bossbar/macro_warden {mob: warden, distance: ..50, max_heal
 
 
 
-execute as @a[scores={time_since_death=..20}] at @s if predicate trident:on_spawn_bedrock run tag @s remove randomtp
+execute as @a[scores={time_since_death=..20}, tag=!randomtp.temp, tag=!randomtp.waiting_to_place_elevator] at @s if predicate trident:on_spawn_bedrock run tag @s remove randomtp
 #execute if entity @a[tag=!randomtp] as @a at @s run tp @s @s
 
 
@@ -169,3 +169,8 @@ execute as @e[type=item, nbt={Item:{id:"end_reborn:crystalline_shard"}}] at @s i
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock on origin run function trident:end_gateway_warp/clear
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run particle minecraft:portal ~ ~ ~ 0 0 0 0.25 300 normal
 execute as @e[type=item, nbt={Item:{id:"minecraft:chorus_fruit"}}] at @s if predicate trident:on_end_bedrock run kill @s
+
+
+
+execute as @a[tag=banned] run gamemode spectator @s
+execute as @a[tag=banned] run title @s actionbar {"translate": "you are banned", "color": "red"}

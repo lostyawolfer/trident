@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "B": "blaze_powder",
+      "P": "minecraft:ender_pearl",
+      "A": "amethyst_shard"
+    },
+    "pattern": [
+      "ABA",
+      "BPB",
+      "ABA"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:ender_eye"
+    }
+  }
