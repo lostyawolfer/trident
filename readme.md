@@ -88,10 +88,12 @@ this space is supposed to be a credit space for all of those.
 - end reborn's "end remains" structure chest's loot table contains totem of keeping
 - instead of elytra spawning in end cities it spawns a single elytra wing that is also deprived of durability
 - achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
+- biome-based ore distribution from jet's better exploration, table to which you may find [here](https://docs.google.com/spreadsheets/d/1BdCvVJP3CvlerC-nFlTZc4cjzYAnAbqMJudeDgCxwGw/edit)
 - ender dragon is... well... based.
 
 ## todo
 - make the better birch forest reed (and its topping) useful
+- remove those dumb absolutely unnecessary birch forest achievements or move them to adventure tab
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
 - fix wardens' loot table (to let them drop echo shards and enchanted golden apples(?))
     - *possibly a chance for totem of keeping??*
@@ -99,11 +101,9 @@ this space is supposed to be a credit space for all of those.
 - channeling on tridents should have levels that let them have more flexibility, with, for example, channeling IV you can just throw a trident anywhere at any time and regardless of if there is a mob there or not it strikes
 - wait until end reborn updates with russian and ukrainian translation; wait until it also updates texture of remnant materials (or do it myself)
 - add whatever that datapack was where it added a structure called a lost library or smth
-- remove those dumb absolutely unnecessary birch forest achievements or move them to adventure tab
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - (?) achievement challenge "dumb ways to die" for dying in every way possible
 - (?) add an equivalent of skulk vial from jet's better exploration
-- (?) ore distribution from jet's better exploration
 
 
 - ~~get all of YUNG's cool structures to work using just datapack logic~~ they got ported over to 1.21 so i dont have to worry about it anymore
