@@ -33,6 +33,7 @@ this space is supposed to be a credit space for all of those.
 - [True Ending: Ender Dragon Overhauled](https://modrinth.com/datapack/true-ending/versions) (seriously this thing is a fucking masterpiece)
 - [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, and made it compatible with 1.21+, but still it's completely theirs) (yes i did combine multiple ender dragon modifications so what)
 - [Jet's Better Exploration](https://modrinth.com/mod/jbe) (i stole his ore distribution logic hehe)
+- [Lost Libraries](https://modrinth.com/datapack/lost-libraries/versions) (the lost libraries structure that is bundled in)
 
 ## current changelog
 - gamerules
@@ -102,7 +103,6 @@ this space is supposed to be a credit space for all of those.
 ## todo
 - give birchupdate's alliums and reed better textures
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
-- add whatever that datapack was where it added a structure called a lost library or smth
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - (?) achievement challenge "dumb ways to die" for dying in every way possible
 - (?) add an equivalent of skulk vial from jet's better exploration
