@@ -13,6 +13,12 @@ execute if score started server matches 2 unless entity @a[tag=!randomtp, tag=ra
 
 
 
+execute if score started server matches 8 run playsound block.beacon.activate master @a 0 0 0 10 1 1
+execute if score started server matches 8 run title @a actionbar {"translate": "trident.title.its_time", "color": "#9ee782"}
+execute if score started server matches 8 run scoreboard players set started server 9
+
+
+
 function true_ending:tick
 function ender_dragon:exe
 

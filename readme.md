@@ -98,10 +98,10 @@ this space is supposed to be a credit space for all of those.
   - III: only on entities, only on open sky, weather does not matter
   - IV: only on entities, anywhere (including other dimensions)
   - V: any landing anywhere causes it to spawn lightning, including after hitting an entity (mostly causing double-lightning, meaning more damage)
+- custom music discs
 - ender dragon is... well... based.
 
 ## todo
-- give birchupdate's alliums and reed better textures
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - (?) achievement challenge "dumb ways to die" for dying in every way possible
