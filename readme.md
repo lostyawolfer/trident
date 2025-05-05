@@ -5,9 +5,10 @@ mods that have to be installed client-side are marked with `##` in front of them
 - `[performance]` duh
 - `[experimental]` not sure if will be in release, but i would want to include it
 - `[gameplay]` is used by server-side mods that alter gameplay mechanics, generation, recipes or anything else gameplay-related in any way. this is needed to distingush those from "administrative" server-side mods, that are there for optimisations or decorations (ex. MiniMOTD, StyledPlyaerList, Lithium, ...)
-- `[non-gameplay]` is used by mods that are both server- and client-side to distingush those from "gameplay" mods. as most both-side mods are "gameplay" anyway, this is inverted here. (ex. NoChatReports, PlayerLocatorPlus, Sit, ...). while those that are marked with `[non-gameplay]` can change things that are for gameplay (Sit and Universal Ores, for example), they are still marked as non-gameplay - as they don't change anything dramatic, like add mew items, blocks, mobs, etc; or they do - but it's nothing of significance.
+- `[non-gameplay]` is used by mods that are both server- and client-side to distingush those from "gameplay" mods. as most both-side mods are "gameplay" anyway, this is inverted here. (ex. NoChatReports, PlayerLocatorPlus, Sit, ...)
 - `[___] [lib]` a library that is needed for something that is of `[___]` mod class
 
 ## mods that seem not necessary client-side but actually are
 - Carpet (needed only for 1 command in Trident Tweaks to work, which is necessary if someone makes a single-player world for example)
 - NoChatReports (needed so that players don't GET THAT STUPID BANNER!!!!!!)
+- Force Tablist Heads (client-side only. cosmetic)
