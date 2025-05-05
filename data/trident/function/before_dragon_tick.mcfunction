@@ -44,4 +44,4 @@ execute as @a if score @s end.eyes_used matches 1.. run scoreboard players reset
 
 
 
-execute unless score started server matches 10.. as @a[nbt={Dimension:"minecraft:the_end"}] at @s run kill @s
+execute unless score started server matches 9.. as @a[nbt={Dimension:"minecraft:the_end"}] at @s run kill @s

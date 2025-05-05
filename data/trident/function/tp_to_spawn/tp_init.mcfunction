@@ -1,0 +1,1 @@
+function trident:tp_to_spawn/tp with entity @s {}

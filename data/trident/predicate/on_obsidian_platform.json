@@ -19,7 +19,7 @@
             },
             "block": {
                 "blocks": [
-                    "minecraft:obsidian"
+                    "minecraft:end_stone_bricks"
                 ]
             }
         }

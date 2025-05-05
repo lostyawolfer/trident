@@ -22,7 +22,7 @@ execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score
 execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..50 if score @s Phase matches 2 if score @s Tick matches 40.. run function ender_dragon:dragon/phase3
 execute as @e[tag=CORE,tag=INIT] unless score @s Health.Dummy matches 0 if score @s Health.Dummy matches ..75 if score @s Phase matches 1 if score @s Tick matches 40.. run function ender_dragon:dragon/phase2
 
-execute as @e[tag=CORE] if score @s Tick matches ..349 run scoreboard players add @s Tick 1
+execute as @e[tag=CORE] if score @s Tick matches ..599 run scoreboard players add @s Tick 1
 
 execute as @e[type=minecraft:ender_dragon,team=!Ender] run team join Ender
 execute as @e[type=minecraft:phantom,team=!Ender] run team join Ender

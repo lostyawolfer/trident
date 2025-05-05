@@ -17,6 +17,8 @@ function true_ending:tick
 function ender_dragon:exe
 
 execute unless score started server matches 10.. run function trident:before_dragon_tick
+execute unless score started server matches 10.. run difficulty normal
+execute if score started server matches 10.. run difficulty hard
 
 
 execute as @a store result score @s health run data get entity @s Health 100
@@ -84,7 +86,6 @@ function trident:dimension_nickname/main
 function trident:end_crystals/main
 function trident:end_falling_loop/main
 function trident:stonecutter_damage/main
-execute as @e[type = minecraft:item_frame, tag = !checked] run function trident:break_end_elytras/main
 execute as @e[type = #arrows] at @s run function trident:arrows/main
 
 # scoreboard players enable @a blood.toggle
