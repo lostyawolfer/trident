@@ -38,5 +38,6 @@
     "trident.title.dragon_killed": "Дракона повалено!",
     "trident.title.dragon_killed.sub": "Останній удар нанесено %s",
 
-    "trident.title.not_yet": "Не на часі."
+    "trident.title.not_yet": "Не на часі.",
+    "trident.title.its_time": "Час настав."
 }

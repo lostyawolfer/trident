@@ -6,5 +6,14 @@
   "block.minecraft.purpur_block": "Резной пурпур",
   "block.minecraft.purpur_pillar": "Резная пурпуровая колонна",
   "block.minecraft.purpur_slab": "Резная пурпуровая плита",
-  "block.minecraft.purpur_stairs": "Резные пурпуровые супеньки"
+  "block.minecraft.purpur_stairs": "Резные пурпуровые супеньки",
+
+  "jukebox_song.minecraft.13": "Михаил Вербицький - Гимн Украины",
+  "jukebox_song.minecraft.blocks": "Запрещённые барабанщики - Убили негра",
+  "jukebox_song.minecraft.far": "Europe - The Final Countdown",
+  "jukebox_song.minecraft.mall": "Илмари Хаккола - Тема Bad Piggies",
+  "jukebox_song.minecraft.mellohi": "C418 - dog",
+  "jukebox_song.minecraft.strad": "Tony Igy - Astronomia",
+  "jukebox_song.minecraft.11": "Rick Astley - Never Gonna Give You Up",
+  "jukebox_song.minecraft.5": "The Caretaker - It's just a burning memory"
 }

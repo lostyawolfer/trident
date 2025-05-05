@@ -36,5 +36,6 @@
     "trident.title.dragon_killed": "Dragon defeated!",
     "trident.title.dragon_killed.sub": "%s made the last hit",
 
-    "trident.title.not_yet": "Not yet."
+    "trident.title.not_yet": "Not yet.",
+    "trident.title.its_time": "It's time."
 }

@@ -38,5 +38,6 @@
     "trident.title.dragon_killed": "Дракон повержен!",
     "trident.title.dragon_killed.sub": "Последний удар нанёс %s",
 
-    "trident.title.not_yet": "Ещё не время."
+    "trident.title.not_yet": "Ещё не время.",
+    "trident.title.its_time": "Время пришло."
 }
