@@ -106,6 +106,3 @@ this space is supposed to be a credit space for all of those.
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - (?) achievement challenge "dumb ways to die" for dying in every way possible
 - (?) add an equivalent of skulk vial from jet's better exploration
-
-
-- ~~get all of YUNG's cool structures to work using just datapack logic~~ they got ported over to 1.21 so i dont have to worry about it anymore
