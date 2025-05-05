@@ -1,0 +1,16 @@
+{
+  "style_name": "overworld",
+  "update_tick_time": 1,
+  "list_header": [
+    "<gr:dark_aqua:dark_green>+-<st>                    </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident </gr></bold><aqua>🔱</aqua> <gr:dark_green:dark_aqua><st>                    </st>-+</gr>",
+    "",
+    "<#3ABDA5><bold>%server:online%</bold> <#1A564B>online"
+  ],
+  "list_footer": [
+    "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps      <dark_gray>ping <#23A559><bold>%player:ping_colored%</bold><dark_gray>ms      <bold>%server:mspt_colored%</bold><dark_gray>/50 mspt",
+    "<dark_green><bold>%world:mob_count monster%</bold><dark_gray>/%world:mob_cap monster% monsters    <dark_gray>mem <dark_green><bold>%server:used_ram gb%</bold><dark_gray>/%server:max_ram gb%GB",
+    "",
+    "<gr:dark_aqua:dark_green>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:dark_green:dark_aqua><st>                            </st>-+</gr>"
+  ],
+  "hidden_in_commands": true
+}

@@ -4,11 +4,10 @@
   "list_header": [
     "<gr:aqua:green>+-<st>                    </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident </gr></bold><aqua>🔱</aqua> <gr:green:aqua><st>                    </st>-+</gr>",
     "",
-    "<#3ABDA5><bold>%server:online%</bold> <#1A564B>в сети"
+    "<#3ABDA5><bold>%server:online%</bold> <#1A564B>online"
   ],
   "list_footer": [
-    "<dark_gray>ping <#23A559><bold>%player:ping_colored%</bold><dark_gray>ms         <#23A559><bold>%server:tps_colored%</bold><dark_gray> tps",
-    "<dark_gray>mem <dark_green><bold>%server:used_ram [gb]%</bold><dark_gray>/%server:max_ram [gb]%      <dark_aqua><bold>%world:mob_count%</bold><dark_gray> mobs      <bold>%server:mspt_colored%</bold><dark_gray>/50 mspt",
+    "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps           <dark_gray>ping <#23A559><bold>%player:ping_colored%</bold><dark_gray>ms",
     "",
     "<gr:aqua:green>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:green:aqua><st>                            </st>-+</gr>"
   ],

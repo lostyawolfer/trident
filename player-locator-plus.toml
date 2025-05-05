@@ -16,3 +16,7 @@ fadeStart = 32
 fadeEnd = 96
 fadeEndOpacity = 0.0
 showHeight = false
+showHeadsOnTab = true
+showNamesOnTab = true
+colorMode = "UUID"
+constantColor = 0xffffff
