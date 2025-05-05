@@ -12,11 +12,11 @@ execute if score start.counter server matches 1.. run scoreboard players add sta
 execute if score start.counter server matches 1.. run scoreboard players operation start.counter.s_start server = start.counter server
 execute if score start.counter server matches 1.. run scoreboard players operation start.counter.s_start server %= 20 consts
 
-execute if score start.counter.s_start server matches 0 if score start.counter.s server matches ..16 run playsound minecraft:block.note_block.hat master @a 0 301 0 10 1
-execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 5 run playsound minecraft:block.note_block.pling master @a 0 301 0 10 .8
-execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 4 run playsound minecraft:block.note_block.pling master @a 0 301 0 10 1
-execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 3 run playsound minecraft:block.note_block.pling master @a 0 301 0 10 1.2
-execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 2 run playsound minecraft:block.note_block.pling master @a 0 301 0 10 1.59
+execute if score start.counter.s_start server matches 0 if score start.counter.s server matches ..16 run playsound minecraft:block.note_block.hat master @a 0 0 0 10 1 1
+execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 4 run playsound minecraft:block.note_block.pling master @a 0 0 0 10 .8 1
+execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 3 run playsound minecraft:block.note_block.pling master @a 0 0 0 10 1 1
+execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 2 run playsound minecraft:block.note_block.pling master @a 0 0 0 10 1.2 1
+#execute if score start.counter.s_start server matches 0 if score start.counter.s server matches 1 run playsound minecraft:block.note_block.pling master @a 0 301 0 10 1.59
 
 execute if score start.counter server matches 1.. run title @a times 0 20 60
 execute if score start.counter server matches 1.. run title @a title ""
@@ -160,6 +160,7 @@ tag @a[tag=!unlocked] add unlocked
 execute if score start.counter server matches 0 run fill -9 298 -7 9 319 7 air
 execute if score start.counter server matches 0 run stopsound @a
 execute if score start.counter server matches 0 run playsound block.end_portal.spawn master @a 0 500 0 9999 1 1
+execute if score start.counter server matches 0 run playsound minecraft:block.note_block.pling master @a 0 500 0 10 1.5 1
 execute if score start.counter server matches 0 run gamemode spectator @a
 execute if score start.counter server matches 0 run spreadplayers 0 0 10 50 false @a
 execute if score start.counter server matches 0 as @a at @s run tp @s ~ ~500 ~

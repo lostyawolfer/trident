@@ -16,7 +16,7 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - potion cauldron
 - simple voice chat
 - what are they up to
-- (experimental) philips ruins
+- philips ruins
 - no chat reports
 - sit
 - universal ores
@@ -24,14 +24,15 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - customizable elytra
 - easy anvils
 - easy magic
-- packet fixer (just in case)
+- packet fixer
+- force tablist heads
 
 ## credits
 for some things that i did, i didn't do them myself, but, uhh, i'll be frank, stole them from someone and just added it to the datapack.<br>
 this space is supposed to be a credit space for all of those.
 - [True Ending: Ender Dragon Overhauled](https://modrinth.com/datapack/true-ending/versions) (seriously this thing is a fucking masterpiece)
-- [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, and made it compatible with 1.21+, but still it's completely theirs)
-(yes i did combine multiple ender dragon modifications so what)
+- [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, and made it compatible with 1.21+, but still it's completely theirs) (yes i did combine multiple ender dragon modifications so what)
+- [Jet's Better Exploration](https://modrinth.com/mod/jbe) (i stole his ore distribution logic hehe)
 
 ## current changelog
 - gamerules
@@ -46,6 +47,7 @@ this space is supposed to be a credit space for all of those.
 - everyone's health is displayed under nickname and also in tab
 - wardens have their own bossbars (they also change color when warden is angry or not)
 - end crystals in the end have their special bossbar too
+- biome-based ore distribution from jet's better exploration, table to which you may find [here](https://docs.google.com/spreadsheets/d/1BdCvVJP3CvlerC-nFlTZc4cjzYAnAbqMJudeDgCxwGw/edit)
 - items can be picked up significantly faster after dropping them
 - items dropped on death have their lifespan expanded and they also glow through walls
 - arrows
@@ -88,18 +90,18 @@ this space is supposed to be a credit space for all of those.
 - end reborn's "end remains" structure chest's loot table contains totem of keeping
 - instead of elytra spawning in end cities it spawns a single elytra wing that is also deprived of durability
 - achievements "first of many", "tenth of many" and challenge "hundredth of many" for death counts
-- biome-based ore distribution from jet's better exploration, table to which you may find [here](https://docs.google.com/spreadsheets/d/1BdCvVJP3CvlerC-nFlTZc4cjzYAnAbqMJudeDgCxwGw/edit)
+- end reborn's remnant material texture is now more distinct from netherite with some blue stuff on it
+- trident's channeling enchant now has 5 levels
+  - I: only on entities, only on open sky, only in thunder (vanilla channeling)
+  - II: only on entities, only on open sky, in thunder and rain
+  - III: only on entities, only on open sky, weather does not matter
+  - IV: only on entities, anywhere (including other dimensions)
+  - V: any landing anywhere causes it to spawn lightning, including after hitting an entity (mostly causing double-lightning, meaning more damage)
 - ender dragon is... well... based.
 
 ## todo
-- make the better birch forest reed (and its topping) useful
-- remove those dumb absolutely unnecessary birch forest achievements or move them to adventure tab
+- also give them a little better texturing
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
-- fix wardens' loot table (to let them drop echo shards and enchanted golden apples(?))
-    - *possibly a chance for totem of keeping??*
-- make sure all the gamerules that you want are followed
-- channeling on tridents should have levels that let them have more flexibility, with, for example, channeling IV you can just throw a trident anywhere at any time and regardless of if there is a mob there or not it strikes
-- wait until end reborn updates with russian and ukrainian translation; wait until it also updates texture of remnant materials (or do it myself)
 - add whatever that datapack was where it added a structure called a lost library or smth
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
 - (?) achievement challenge "dumb ways to die" for dying in every way possible

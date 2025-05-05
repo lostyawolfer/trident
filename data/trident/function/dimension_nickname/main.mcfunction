@@ -10,15 +10,26 @@ team join y_spectator @a[gamemode=spectator, team=!y_spectator, tag=!logging_in]
 team join z_logging @a[team=!z_logging, tag=logging_in]
 
 
-styledplayerlist switchothers @a[team=c_nether] nether
-styledplayerlist switchothers @a[team=a_end] end
-styledplayerlist switchothers @a[team=y_spectator] spectator
-styledplayerlist switchothers @a[team=z_logging] logging_in
-execute if score dim_status overworld_time matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld] overworld_night
-execute unless score dim_status overworld_time matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld] overworld_day
+styledplayerlist switchothers @a[team=c_nether, scores={detailed_tablist=0}] default_nether
+styledplayerlist switchothers @a[team=a_end, scores={detailed_tablist=0}] default_end
+styledplayerlist switchothers @a[team=y_spectator, scores={detailed_tablist=0}] default_spectator
+execute if score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=0}] default_overworld_night
+execute unless score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=0}] default_overworld_day
 
-execute if score dim_status overworld_time matches 12541..23457 run team modify b_overworld color dark_green
-execute unless score dim_status overworld_time matches 12541..23457 run team modify b_overworld color green
+styledplayerlist switchothers @a[team=c_nether, scores={detailed_tablist=1}] expanded_nether
+styledplayerlist switchothers @a[team=a_end, scores={detailed_tablist=1}] expanded_end
+styledplayerlist switchothers @a[team=y_spectator, scores={detailed_tablist=1}] expanded_spectator
+execute if score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=1}] expanded_overworld_night
+execute unless score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=1}] expanded_overworld_day
+
+styledplayerlist switchothers @a[team=c_nether, scores={detailed_tablist=2}] mobcaps_nether
+styledplayerlist switchothers @a[team=a_end, scores={detailed_tablist=2}] mobcaps_end
+styledplayerlist switchothers @a[team=y_spectator, scores={detailed_tablist=2}] mobcaps_spectator
+execute if score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=2}] mobcaps_overworld_night
+execute unless score time server matches 12541..23457 run styledplayerlist switchothers @a[team=b_overworld, scores={detailed_tablist=2}] mobcaps_overworld_day
+
+execute if score time server matches 12541..23457 run team modify b_overworld color dark_green
+execute unless score time server matches 12541..23457 run team modify b_overworld color green
 
 
 

@@ -84,7 +84,6 @@ def build_jar(ver: str,
         "fabric-api": ">=0.119.0",
 
         "philipsruins": "*",
-
         "carpet": "*",
         "nochatreports": "*",
         "packetfixer": "*",
@@ -94,6 +93,7 @@ def build_jar(ver: str,
         "sit": "*",
         "universal_ores": "*",
         "watut": "*",
+        "forcetablistheads": "*",
         
         "azaleawood": "*",
         "birchupdate": "*",

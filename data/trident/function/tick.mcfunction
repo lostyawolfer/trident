@@ -18,6 +18,8 @@ function ender_dragon:exe
 
 execute unless score started server matches 10.. run function trident:before_dragon_tick
 execute unless score started server matches 10.. run difficulty normal
+execute unless score started server matches 10.. run gamerule playersSleepingPercentage 101
+execute if score started server matches 10.. run gamerule playersSleepingPercentage 50
 execute if score started server matches 10.. run difficulty hard
 
 
@@ -193,3 +195,7 @@ execute as @a[scores={dt.kill=1..}] run title @a times 3 70 120
 execute as @a[scores={dt.kill=1..}] run title @a title {"translate":"trident.title.dragon_killed","color":"dark_purple"}
 execute as @a[scores={dt.kill=1..}] run title @a subtitle [{"translate":"trident.title.dragon_killed.sub","color":"light_purple", "with": [{"selector":"@a[scores={dt.kill=1..}]"}]}]
 execute as @a[scores={dt.kill=1..}] run scoreboard players set @s dt.kill 0
+
+
+scoreboard players enable @a detailed_tablist
+scoreboard players set @a[scores={detailed_tablist=3..}] detailed_tablist 0

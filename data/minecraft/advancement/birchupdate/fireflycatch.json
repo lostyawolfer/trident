@@ -2,74 +2,7 @@
   "parent": "minecraft:birchupdate/root",
   "criteria": {
     "firefly_bottle_item": {
-      "conditions": {
-        "items": [
-          {
-            "items": "birchupdate:firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:black_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:gray_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:light_gray_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:white_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:brown_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:red_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:orange_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:yellow_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:cyan_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:light_blue_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:blue_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:purple_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:magenta_firefly_bottle_block"
-          },
-          {
-            "items": "birchupdate:pink_firefly_bottle_block"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:impossible"
     }
-  },
-  "display": {
-    "description": "Catch a firefly",
-    "frame": "challenge",
-    "icon": {
-      "count": 1,
-      "id": "birchupdate:firefly_bottle_block"
-    },
-    "title": "Gotta catch them all!"
-  },
-  "requirements": [
-    [
-      "firefly_bottle_item"
-    ]
-  ],
-  "rewards": {
-    "experience": 30
-  },
-  "sends_telemetry_event": true
+  }
 }

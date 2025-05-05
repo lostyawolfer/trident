@@ -21,6 +21,9 @@ scoreboard objectives add dt.kill minecraft.killed:minecraft.ender_dragon
 scoreboard objectives add randomtp dummy
 scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since_death
 
+
+scoreboard objectives add detailed_tablist trigger
+
 forceload add 24000 24000
 setblock 24000 319 24000 bedrock
 setworldspawn 24000 320 24000
@@ -35,7 +38,7 @@ function trident:one_wing_elytra/check_frame
 
 # command provided by Carpet mod (making mobcap less than original for optimisation purposes)
 #tellraw @a "spawn mobcaps set 20"
-spawn mobcaps set 20
+spawn mobcaps set 40
 
 scoreboard objectives add server dummy
 
