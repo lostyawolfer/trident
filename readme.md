@@ -100,7 +100,7 @@ this space is supposed to be a credit space for all of those.
 - ender dragon is... well... based.
 
 ## todo
-- also give them a little better texturing
+- give birchupdate's alliums and reed better textures
 - make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
 - add whatever that datapack was where it added a structure called a lost library or smth
 - (?) achievements 12h: "still standing"; 24h: "mindful mining"; challenge 48h: "touch some grass"; challenge 7d: "are you playing hardcore or something?" for not dying for some time
