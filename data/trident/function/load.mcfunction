@@ -93,7 +93,7 @@ scoreboard objectives add blood.dmgabs minecraft.custom:minecraft.damage_absorbe
 scoreboard objectives add blood.death deathCount
 scoreboard objectives add blood.toggle trigger
 
-scoreboard objectives add coords.toggle trigger
+scoreboard objectives add show_coords trigger
 
 
 team add deathglow.green
