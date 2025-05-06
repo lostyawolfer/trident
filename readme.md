@@ -97,7 +97,7 @@ this space is supposed to be a credit space for all of those.
   - II: only on entities, only on open sky, in thunder and rain
   - III: only on entities, only on open sky, weather does not matter
   - IV: only on entities, anywhere (including other dimensions)
-  - V: any landing anywhere causes it to spawn lightning, including after hitting an entity (mostly causing double-lightning, meaning more damage)
+  - V: any landing anywhere causes it to spawn lightning, including after hitting an entity (mostly causing double-lightning, meaning more damage), and also hitting something directly with it will also cause the lightning to spawn (basically OP)
 - custom music discs
 - ender dragon is... well... based.
 

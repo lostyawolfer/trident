@@ -282,6 +282,19 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "condition": "minecraft:all_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "direct_attacker",
+                                    "predicate": {
+                                        "type": "minecraft:player",
+                                        "nbt": "{SelectedItem:{components:{\"minecraft:enchantments\":{levels:{\"minecraft:channeling\":5}}}}}"
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
