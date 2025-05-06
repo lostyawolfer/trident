@@ -18,7 +18,6 @@ execute if score started server matches 8 run title @a actionbar {"translate": "
 execute if score started server matches 8 run scoreboard players set started server 9
 
 
-
 function true_ending:tick
 function ender_dragon:exe
 
@@ -44,9 +43,6 @@ tag @a[tag=!unlocked] add unlocked
 
 
 
-# execute as @a store result score @s pos.x run data get entity @s Pos[0]
-# execute as @a store result score @s pos.y run data get entity @s Pos[1]
-# execute as @a store result score @s pos.z run data get entity @s Pos[2]
 
 scoreboard players add lifespan server 1
 execute store result score time server run time query daytime
@@ -107,7 +103,7 @@ execute as @a[scores={blood.dmg=1..}] at @s run function trident:blood_particles
 execute as @a[scores={blood.dmgabs=1..}] at @s run function trident:blood_particles/absorbtion
 execute as @a[scores={blood.death=1..}] at @s run function trident:blood_particles/death
 
-# execute as @a run function trident:coords_actionbar/show
+execute as @a run function trident:coords_actionbar/show
 
 
 

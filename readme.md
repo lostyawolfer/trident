@@ -66,7 +66,7 @@ this space is supposed to be a credit space for all of those.
 - xp that you drop on death is not less than you had, you retain all the xp there was (instead of 99 -> ~7 you stay at 99 -> 99 levels)
 - when you die you get shown your death count as a title
 - stonecutter deals damage when stepping on it
-- you can use a command to let your coordinates and world time to show in your actionbar (from vanilla tweaks but customized)
+- you can use a command to let your coordinates and world time to show in your actionbar (idea by vanilla tweaks, but my own implementation)
 - recipes
     - all wood types have a bunch of recipes for stonecutter (including better birch forest's hollow logs)
     - smelt rotten flesh to get leather
