@@ -4,10 +4,10 @@
   "list_header": [
     "<gr:light_purple:dark_purple>+-<st>                    </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident </gr></bold><aqua>🔱</aqua> <gr:dark_purple:light_purple><st>                    </st>-+</gr>",
     "",
-    "<#3ABDA5><bold>%server:online%</bold> <#1A564B>online"
+    "<#3ABDA5><bold>%server:online%</bold> <#1A564B><lang:'trident.tablist.online'>"
   ],
   "list_footer": [
-    "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps           <dark_gray>ping <#23A559><bold>%player:ping_colored%</bold><dark_gray>ms",
+    "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps           <dark_gray><lang:'trident.tablist.ping'> <#23A559><bold>%player:ping_colored%</bold><dark_gray><lang:'trident.tablist.ping.ms'>",
     "",
     "<gr:light_purple:dark_purple>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:dark_purple:light_purple><st>                            </st>-+</gr>"
   ],
