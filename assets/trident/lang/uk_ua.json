@@ -24,6 +24,9 @@
     "advancements.story.die_hundred_times.title": "Сотня з багатьох",
     "advancements.story.die_hundred_times.description": "Вмри в свій сотий раз в цьому світі. Ти взагалі грати вмієш?",
 
+    "advancements.adventure.kill_warden.title": "Це тобі не бібліотека",
+    "advancements.adventure.kill_warden.description": "Вбий Боронителя",
+
     "Restarting": "Перезапуск",
     "You'll be reconnected automatically": "Тебе автоматично під'єднає",
 
@@ -39,5 +42,13 @@
     "trident.title.dragon_killed.sub": "Останній удар нанесено %s",
 
     "trident.title.not_yet": "Не на часі.",
-    "trident.title.its_time": "Час настав."
+    "trident.title.its_time": "Час настав.",
+
+    "chat.trident.join.first": "зайшов (вперше!)",
+    "chat.trident.join": "зайшов",
+    "chat.trident.leave": "лівнув",
+
+    "chat.trident.advanmcement.normal": "отримав ачівку",
+    "chat.trident.advanmcement.goal": "виконав ціль",
+    "chat.trident.advanmcement.challenge": "подолав виклик"
 }

@@ -3,7 +3,7 @@
 
     "trident.ender_totem": "Тотем сохранения",
     "advancements.trident.use_ender_totem.title": "Казуалище",
-    "advancements.trident.use_ender_totem.description": "Используй тотем сохранения, который позволяет тебе сохранить инвентарь после смерти",
+    "advancements.trident.use_ender_totem.description": "Воспользуйся тотемом сохранения, чтобы сохранить свой инвентарь",
     "trident.chat.ender_totem_used": "Использован тотем сохранения",
 
     "advancements.trident.break_elytra.title": "Хьюстон, у нас проблемы",
@@ -24,6 +24,9 @@
     "advancements.story.die_hundred_times.title": "Сотая из многих",
     "advancements.story.die_hundred_times.description": "Умри в свой сотый раз, а потом переосмысли своё умение играть",
 
+    "advancements.adventure.kill_warden.title": "мыш (убица)",
+    "advancements.adventure.kill_warden.description": "Убей Хранителя",
+
     "Restarting": "Перезапуск",
     "You'll be reconnected automatically": "Тебя автоматически переподключит",
 
@@ -39,5 +42,13 @@
     "trident.title.dragon_killed.sub": "Последний удар нанёс %s",
 
     "trident.title.not_yet": "Ещё не время.",
-    "trident.title.its_time": "Время пришло."
+    "trident.title.its_time": "Время пришло.",
+
+    "chat.trident.join.first": "зашёл (впервые!)",
+    "chat.trident.join": "зашёл",
+    "chat.trident.leave": "ливнул",
+
+    "chat.trident.advanmcement.normal": "получил ачивку",
+    "chat.trident.advanmcement.goal": "выполнил цель",
+    "chat.trident.advanmcement.challenge": "прошёл челлендж"
 }

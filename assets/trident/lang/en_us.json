@@ -22,6 +22,9 @@
     "advancements.story.die_hundred_times.title": "Hundred Of Many",
     "advancements.story.die_hundred_times.description": "Die for one hundredth time. Sounds like a skill issue, to be honest.",
 
+    "advancements.adventure.kill_warden.title": "Destruction 100",
+    "advancements.adventure.kill_warden.description": "Kill a warden",
+
     "Restarting": "Restarting",
     "You'll be reconnected automatically": "You'll be reconnected automatically",
 
@@ -37,5 +40,13 @@
     "trident.title.dragon_killed.sub": "%s made the last hit",
 
     "trident.title.not_yet": "Not yet.",
-    "trident.title.its_time": "It's time."
+    "trident.title.its_time": "It's time.",
+
+    "chat.trident.join.first": "joined (for the first time!)",
+    "chat.trident.join": "joined",
+    "chat.trident.leave": "left",
+
+    "chat.trident.advanmcement.normal": "completed the achievement",
+    "chat.trident.advanmcement.goal": "achieved the goal",
+    "chat.trident.advanmcement.challenge": "completed the challenge"
 }
