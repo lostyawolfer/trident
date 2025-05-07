@@ -5,10 +5,10 @@
       "components": {"damage": 431}
     },
     "title": {
-      "translate": "advancements.trident.break_elytra.title"
+      "translate": "advancements.end.break_elytra.title"
     },
     "description": {
-      "translate": "advancements.trident.break_elytra.description"
+      "translate": "advancements.end.break_elytra.description"
     },
     "frame": "goal",
     "show_toast": true,
@@ -24,7 +24,7 @@
           "location": {
             "position": {
               "y": {
-                "min": 300
+                "min": 320
               }
             }
           }

@@ -5,10 +5,10 @@
       "components": {"custom_model_data": {"strings": ["ender_totem"]}}
     },
     "title": {
-      "translate": "advancements.trident.use_ender_totem.title"
+      "translate": "advancements.adventure.use_ender_totem.title"
     },
     "description": {
-      "translate": "advancements.trident.use_ender_totem.description"
+      "translate": "advancements.adventure.use_ender_totem.description"
     },
     "frame": "challenge",
     "show_toast": true,
