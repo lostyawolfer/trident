@@ -166,3 +166,12 @@ execute if score start.counter server matches 0 run spreadplayers 0 0 10 50 fals
 execute if score start.counter server matches 0 as @a at @s run tp @s ~ ~500 ~
 execute if score start.counter server matches 0 run effect give @a blindness infinite 0 true
 execute if score start.counter server matches 0 run scoreboard players set started server 1
+
+
+
+styledplayerlist switchothers @a[scores={detailed_tablist=0}] default_spectator
+styledplayerlist switchothers @a[scores={detailed_tablist=1}] expanded_spectator
+styledplayerlist switchothers @a[scores={detailed_tablist=2}] mobcaps_spectator
+
+scoreboard players enable @a detailed_tablist
+scoreboard players set @a[scores={detailed_tablist=3..}] detailed_tablist 0

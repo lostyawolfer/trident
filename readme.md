@@ -3,7 +3,8 @@ i have a mc server, and i had it for quite some time now. i had some custom twea
 the main thing here is that we play with mods, but i want them to FEEL LIKE UPDATES instead of mods, so parity between all the feautres, all the necessary translations, and sometimes i have to fix obviously strange non-vanilla behavior to make it more "minecraftey" so to speak. so i'm trying to "fix" mods by modding them with a datapack. very genius of me lol
 
 ## dependencies
-### actual dependencies
+### actual dependencies (without which this mod won't work)
+- styled playerlist
 - carpet
 - better birch forest
 - copper hopper

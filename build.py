@@ -83,8 +83,10 @@ def build_jar(ver: str,
         "java": ">=17",
         "fabric-api": ">=0.119.0",
 
-        "philipsruins": "*",
+        "styledplayerlist": "*",
         "carpet": "*",
+
+        "philipsruins": "*",
         "nochatreports": "*",
         "packetfixer": "*",
         "ping-wheel": "*",
