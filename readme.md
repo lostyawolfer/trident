@@ -38,7 +38,6 @@ this space is supposed to be a credit space for all of those.
 
 ## current changelog
 - gamerules
-    - randomTickSpeed = 10
     - mobExplosionDropDecay = false
     - blockExplosionDropDecay = false
     - doInsomnia = false
@@ -100,6 +99,8 @@ this space is supposed to be a credit space for all of those.
   - IV: only on entities, anywhere (including other dimensions)
   - V: any landing anywhere causes it to spawn lightning, including after hitting an entity (mostly causing double-lightning, meaning more damage), and also hitting something directly with it will also cause the lightning to spawn (basically OP)
 - custom music discs
+- before beating the ender dragon, difficulty normal; after - difficutly hard
+- before beating the ender dragon villages do spawn but all villagers are cursed - if you try to go near them, they get struck by lightning
 - ender dragon is... well... based.
 
 ## todo
