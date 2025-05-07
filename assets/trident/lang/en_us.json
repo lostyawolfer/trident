@@ -1,11 +1,11 @@
 {
     "trident.ender_totem": "Totem of Keeping",
-    "advancements.trident.use_ender_totem.title": "Such A Casual",
-    "advancements.trident.use_ender_totem.description": "Use a Totem of Keeping, which lets you keep your inventory after death",
+    "advancements.adventure.use_ender_totem.title": "Such A Casual",
+    "advancements.adventure.use_ender_totem.description": "Use a Totem of Keeping, which lets you keep your inventory after death",
     "trident.chat.ender_totem_used": "A Totem of Keeping was used",
 
-    "advancements.trident.break_elytra.title": "Houston, We Have A Problem",
-    "advancements.trident.break_elytra.description": "Break an elytra at a height over 300",
+    "advancements.end.break_elytra.title": "Houston, We Have A Problem",
+    "advancements.end.break_elytra.description": "Break an elytra higher than the build limit",
 
     "trident.bossbar.end_crystals": "End Crystals",
     "trident.title.death_count": "This was your death #%s",
@@ -22,8 +22,14 @@
     "advancements.story.die_hundred_times.title": "Hundred Of Many",
     "advancements.story.die_hundred_times.description": "Die for one hundredth time. Sounds like a skill issue, to be honest.",
 
+    "advancements.end.half_an_elytra.title": "Only One Wing",
+    "advancements.end.half_an_elytra.description": "Not quite what I was expecting...",
+
     "advancements.adventure.kill_warden.title": "Destruction 100",
-    "advancements.adventure.kill_warden.description": "Kill a warden",
+    "advancements.adventure.kill_warden.description": "Kill a Warden",
+
+    "betterdungeons.advancements.zombie_dungeon.title": "Down the Rabbit Hole We Go",
+    "betterdungeons.advancements.zombie_dungeon.description": "Find a Zombie Dungeon",
 
     "Restarting": "Restarting",
     "You'll be reconnected automatically": "You'll be reconnected automatically",
@@ -48,5 +54,13 @@
 
     "chat.trident.advanmcement.normal": "completed the achievement",
     "chat.trident.advanmcement.goal": "achieved the goal",
-    "chat.trident.advanmcement.challenge": "completed the challenge"
+    "chat.trident.advanmcement.challenge": "completed the challenge",
+
+    "trident.tablist.online": "online",
+    "trident.tablist.ping": "ping",
+    "trident.tablist.ping.ms": "ms",
+    "trident.tablist.monsters": "monsters",
+    "trident.tablist.total_mobs": "total mobs",
+    "trident.tablist.memory": "mem",
+    "trident.tablist.memory.gb": "GB"
 }

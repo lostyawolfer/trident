@@ -2,12 +2,12 @@
     "container.repair": "Ковадло",
 
     "trident.ender_totem": "Тотем збереження",
-    "advancements.trident.use_ender_totem.title": "Калуаліще",
-    "advancements.trident.use_ender_totem.description": "Використай тотем збереження, який дозволяє зберегти інвентар після смерті",
+    "advancements.adventure.use_ender_totem.title": "Калуаліще",
+    "advancements.adventure.use_ender_totem.description": "Використай тотем збереження, який дозволяє зберегти інвентар після смерті",
     "trident.chat.ender_totem_used": "Використано тотем збереження",
 
-    "advancements.trident.break_elytra.title": "Г'юстоне, у нас проблема",
-    "advancements.trident.break_elytra.description": "Зламай елітри на висоті вище ніж 300",
+    "advancements.end.break_elytra.title": "Г'юстоне, у нас проблема",
+    "advancements.end.break_elytra.description": "Зламай елітри вище за границю будівництва",
 
     "trident.bossbar.end_crystals": "Кришталі Енду",
     "trident.title.death_count": "Це була твоя смерть #%s",
@@ -24,8 +24,14 @@
     "advancements.story.die_hundred_times.title": "Сотня з багатьох",
     "advancements.story.die_hundred_times.description": "Вмри в свій сотий раз в цьому світі. Ти взагалі грати вмієш?",
 
+    "advancements.end.half_an_elytra.title": "Редбул надає... Одне крило",
+    "advancements.end.half_an_elytra.description": "Це не зовсім те, на що я розраховував...",
+
     "advancements.adventure.kill_warden.title": "Це тобі не бібліотека",
     "advancements.adventure.kill_warden.description": "Вбий Боронителя",
+
+    "betterdungeons.advancements.zombie_dungeon.title": "Куди Макар телят не ганяв",
+    "betterdungeons.advancements.zombie_dungeon.description": "Знайди заражений лабіринт",
 
     "Restarting": "Перезапуск",
     "You'll be reconnected automatically": "Тебе автоматично під'єднає",
@@ -50,5 +56,13 @@
 
     "chat.trident.advanmcement.normal": "отримав ачівку",
     "chat.trident.advanmcement.goal": "виконав ціль",
-    "chat.trident.advanmcement.challenge": "подолав виклик"
+    "chat.trident.advanmcement.challenge": "подолав виклик",
+
+    "trident.tablist.online": "онлайн",
+    "trident.tablist.ping": "пінг",
+    "trident.tablist.ping.ms": "мс",
+    "trident.tablist.monsters": "монстрів",
+    "trident.tablist.total_mobs": "всього мобів",
+    "trident.tablist.memory": "пам'ять",
+    "trident.tablist.memory.gb": "ГБ"
 }

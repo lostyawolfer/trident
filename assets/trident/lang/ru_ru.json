@@ -2,12 +2,12 @@
     "container.repair": "Наковальня",
 
     "trident.ender_totem": "Тотем сохранения",
-    "advancements.trident.use_ender_totem.title": "Казуалище",
-    "advancements.trident.use_ender_totem.description": "Воспользуйся тотемом сохранения, чтобы сохранить свой инвентарь",
+    "advancements.adventure.use_ender_totem.title": "Казуалище",
+    "advancements.adventure.use_ender_totem.description": "Воспользуйся тотемом сохранения, чтобы сохранить свой инвентарь",
     "trident.chat.ender_totem_used": "Использован тотем сохранения",
 
-    "advancements.trident.break_elytra.title": "Хьюстон, у нас проблемы",
-    "advancements.trident.break_elytra.description": "Сломай элитры на высоте более 300",
+    "advancements.end.break_elytra.title": "Хьюстон, у нас проблема",
+    "advancements.end.break_elytra.description": "Сломай элитры выше границы строительства",
 
     "trident.bossbar.end_crystals": "Кристаллы Края",
     "trident.title.death_count": "Это была твоя %s-я смерть",
@@ -24,8 +24,17 @@
     "advancements.story.die_hundred_times.title": "Сотая из многих",
     "advancements.story.die_hundred_times.description": "Умри в свой сотый раз, а потом переосмысли своё умение играть",
 
+    "advancements.end.half_an_elytra.title": "Моноплан",
+    "advancements.end.half_an_elytra.description": "Это не совсем то, чего я ожидал...",
+
     "advancements.adventure.kill_warden.title": "мыш (убица)",
     "advancements.adventure.kill_warden.description": "Убей Хранителя",
+
+    "betterdungeons.advancements.zombie_dungeon.title": "Куда ты завёл нас, Сусанин-герой?",
+    "betterdungeons.advancements.zombie_dungeon.description": "Найди заражённый лабиринт",
+
+    "betterdungeons.advancements.leave_zombie_dungeon.title": "Постойте ребята, я вспомнил дорогу",
+    "betterdungeons.advancements.leave_zombie_dungeon.description": "Выберись из заражённого лабиринта",
 
     "Restarting": "Перезапуск",
     "You'll be reconnected automatically": "Тебя автоматически переподключит",
@@ -50,5 +59,13 @@
 
     "chat.trident.advanmcement.normal": "получил ачивку",
     "chat.trident.advanmcement.goal": "выполнил цель",
-    "chat.trident.advanmcement.challenge": "прошёл челлендж"
+    "chat.trident.advanmcement.challenge": "прошёл челлендж",
+
+    "trident.tablist.online": "онлайн",
+    "trident.tablist.ping": "пинг",
+    "trident.tablist.ping.ms": "мс",
+    "trident.tablist.monsters": "монстров",
+    "trident.tablist.total_mobs": "всего мобов",
+    "trident.tablist.memory": "память",
+    "trident.tablist.memory.gb": "ГБ"
 }
