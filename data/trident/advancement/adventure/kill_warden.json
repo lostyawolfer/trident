@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:adventure/avoid_vibration",
+    "criteria": {
+      "minecraft:blaze": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:warden"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "display": {
+      "description": {
+        "translate": "advancements.adventure.kill_warden.description"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:echo_shard"
+      },
+      "title": {
+        "translate": "advancements.adventure.kill_warden.title"
+      },
+      "frame": "challenge"
+    }
+  }
