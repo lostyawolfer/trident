@@ -11,7 +11,7 @@
 				"when": "ender_totem",
 				"model": {
 					"type": "model",
-					"model": "item/ender_totem"
+					"model": "trident:item/ender_totem"
 				}
 			}
 		]
