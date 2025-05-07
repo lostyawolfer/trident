@@ -101,6 +101,7 @@ this space is supposed to be a credit space for all of those.
 - custom music discs
 - before beating the ender dragon, difficulty normal; after - difficutly hard
 - before beating the ender dragon villages do spawn but all villagers are cursed - if you try to go near them, they get struck by lightning
+- before beating the ender dragon, no sleeping through the night allowed; after - 50% online players required
 - ender dragon is... well... based.
 
 ## todo
