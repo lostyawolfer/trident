@@ -8,7 +8,7 @@
   ],
   "list_footer": [
     "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps      <dark_gray><lang:'trident.tablist.ping'> <#23A559><bold>%player:ping_colored%</bold><dark_gray><lang:'trident.tablist.ping.ms'>      <bold>%server:mspt_colored%</bold><dark_gray>/50 mspt",
-    "<dark_green><bold>%world:mob_count monster%</bold><dark_gray>/%world:mob_cap monster% <lang:'trident.tablist.monsters'>    <dark_gray><lang:'trident.tablist.memory'> <dark_green><bold>%server:used_ram gb%</bold><dark_gray>/%server:max_ram gb%<lang:'trident.tablist.mem.gb'>",
+    "<dark_green><bold>%world:mob_count monster%</bold><dark_gray>/%world:mob_cap monster% <lang:'trident.tablist.monsters'>    <dark_gray><lang:'trident.tablist.memory'> <dark_green><bold>%server:used_ram gb%</bold><dark_gray>/%server:max_ram gb%<lang:'trident.tablist.memory.gb'>",
     "",
     "<gr:light_purple:dark_purple>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:dark_purple:light_purple><st>                            </st>-+</gr>"
   ],
