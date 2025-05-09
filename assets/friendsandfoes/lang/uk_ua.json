@@ -1,0 +1,5 @@
+{
+	"item.friendsandfoes.totem_of_freezing": "Тотем замороження",
+	"item.friendsandfoes.totem_of_illusion": "Тотем злуди",
+	"friendsandfoes.totem_trigger_tooltip": "Активується коли отримуєте шкоду якщо здоров'я менше половини від максимального"
+}
