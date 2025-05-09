@@ -10,6 +10,7 @@ gamerule doInsomnia false
 gamerule playersNetherPortalDefaultDelay 20
 gamerule keepInventory true
 gamerule spawnRadius 0
+gamerule minecartMaxSpeed 20
 
 # execute unless score dragon_beaten server matches 1 run gamerule disableRaids true
 

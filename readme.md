@@ -27,14 +27,21 @@ the main thing here is that we play with mods, but i want them to FEEL LIKE UPDA
 - easy magic
 - packet fixer
 - force tablist heads
+- friends & foes
 
 ## credits
 for some things that i did, i didn't do them myself, but, uhh, i'll be frank, stole them from someone and just added it to the datapack.<br>
 this space is supposed to be a credit space for all of those.
 - [True Ending: Ender Dragon Overhauled](https://modrinth.com/datapack/true-ending/versions) (seriously this thing is a fucking masterpiece)
 - [Better Ender Dragon Boss Fight](https://www.planetminecraft.com/data-pack/better-ender-dragon-boss-fight/) (i changed it a little, and made it compatible with 1.21+, but still it's completely theirs) (yes i did combine multiple ender dragon modifications so what)
-- [Jet's Better Exploration](https://modrinth.com/mod/jbe) (i stole his ore distribution logic hehe)
+- [Jet's Better Exploration](https://modrinth.com/mod/jbe) (i stole his biome-based ore distribution logic hehe)
 - [Lost Libraries](https://modrinth.com/datapack/lost-libraries/versions) (the lost libraries structure that is bundled in)
+
+## special thanks (or not??)
+- thanks [nullscape](https://modrinth.com/datapack/nullscape). been using it for quite some time now and when was playing with betterend still combined them for a masterful generation. while i did modify it just a little bit regarding advancements, your guys' license explicitly states i'm not allowed to add any version, modified or not, to a "datapack pack" which is basically what this mod is.
+- thanks [end reborn](https://modrinth.com/mod/end-reborn). hands down the best *VANILLA-LIKE* mod for the end.
+- [true ending](https://modrinth.com/datapack/true-ending/versions). it's a masterpiece. do i need to say anything else?
+- [cavernous](https://modrinth.com/datapack/cavernous). vanilla-like MY ASS. fuck the expansions. if you have shit going on that's on the level of "The Myst" etc, it's cool and all, i really love it, it's not bad, it's actually great... but it's NOT a fucking VANILLA-LIKE DATAPACK. it WAS, before any expansions (and even then i had some questions regarding generation - i would've gotten rid of glowing mushrooms, for example), but now... it's anything but vanilla-like. say what you want, i'll DIE on that hill. just give me the fucking cave update bro. i HEAVILY modified it to remove EVERYTHING except underground villages (i would've copied some biomes too but i was too lazy to deal with adding them properly/removing other biomes properly), however as stated in its license i'm not allowed to add this modified version here, so a separate datapack it remains...
 
 ## current changelog
 - gamerules
@@ -105,5 +112,6 @@ this space is supposed to be a credit space for all of those.
 - ender dragon is... well... based.
 
 ## todo
+- maybe, *MAYBE* install terralith, but water it down a lot, and make it compatible with all the stuff with birch forests i have
 - (i feel really really lazy about this) make wandering traders better (do something like thediamondplayables' "merchant" but not using a scripter so it's actually readable and maintainable and do it yourself not copying the actual datapack)
-- (?) add an equivalent of skulk vial from jet's better exploration
+- (?) add an equivalent of sculk vial from jet's better exploration (prob not needed since friends & foes adds a mob that can store xp...)

@@ -72,7 +72,7 @@ def build_jar(ver: str,
     "contact": {{
         "homepage": "none",
         "sources": "https://github.com/lostyawolfer/trident",
-        "issues": "none"
+        "issues": "https://github.com/lostyawolfer/trident/issues"
     }},
     "license": "WTFPL",
     "icon": "logo.png",
@@ -106,9 +106,13 @@ def build_jar(ver: str,
         "easyanvils": "*",
         "easymagic": "*",
         "end_reborn": "*",
-        "potioncauldron": "*"
+        "potioncauldron": "*",
+        "friendsandfoes": "*"
     }}
 }}"""
+# i know i should probably not use wildcard versions all the time,
+# but most of the mods i use don't have proper semantic versions in them.
+# so i didn't bother
 
         fabric_mod_file_path = os.path.join(tmpdir, "fabric.mod.json")
         with open(fabric_mod_file_path, "w") as f:
