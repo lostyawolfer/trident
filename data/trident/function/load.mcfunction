@@ -67,7 +67,7 @@ scoreboard objectives add consts dummy
     scoreboard players set night_starts consts 12542
     scoreboard players set day_starts consts 23460
 
-scoreboard objectives add health dummy
+scoreboard objectives add health health
     scoreboard objectives modify health displayname {"text": "hp", "color": "red"}
     scoreboard objectives modify health numberformat styled {"color": "red"}
 scoreboard objectives add health_display health

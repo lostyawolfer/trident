@@ -146,4 +146,4 @@ if __name__ == "__main__":
               repo_url="https://github.com/lostyawolfer/trident",
               first_branch="master",
               second_branch="resources",
-              jar_name="trident-tweaks.jar")
+              jar_name=f"Trident Tweaks {ver}.jar")

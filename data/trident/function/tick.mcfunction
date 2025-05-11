@@ -18,6 +18,8 @@ execute if score started server matches 8 run title @a actionbar {"translate": "
 execute if score started server matches 8 run scoreboard players set started server 9
 
 
+
+
 function true_ending:tick
 function ender_dragon:exe
 
@@ -28,15 +30,18 @@ execute if score started server matches 10.. run gamerule playersSleepingPercent
 execute if score started server matches 10.. run difficulty hard
 
 
-execute as @a store result score @s health run data get entity @s Health 100
-scoreboard players add @a health 99
-execute as @a run scoreboard players operation @s health /= 100 consts
+# execute as @a store result score @s health run data get entity @s Health 100
+# scoreboard players add @a health 99
+# execute as @a run scoreboard players operation @s health /= 100 consts
+
+
 
 clear @a[tag=unlocked, tag=!unlocked2]
 tag @a[tag=unlocked, tag=!unlocked2] add unlocked2
 
 recipe give @a[tag=!unlocked] *
 tag @a[tag=!unlocked] add unlocked
+
 
 
 
@@ -66,7 +71,6 @@ execute as @e[type = item, nbt = {PickupDelay: 40s}] at @s run data merge entity
 
 
 
-
 execute as @a if data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s add keepInventoryOnce
 execute as @a unless data entity @s {Inventory:[{id: "minecraft:totem_of_undying", components: {"minecraft:custom_model_data": {strings:["ender_totem"]}}}]} run tag @s remove keepInventoryOnce
 
@@ -84,13 +88,21 @@ execute as @a[scores={ender_totem.animation_ticker=1..}] if score @s health matc
 execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce, tag=!keepInventory] if score @s health matches 1.. run function trident:ender_totem/keep_inventory_once
 
 
+
+
+
 function trident:death_items_glow/main
 function trident:death_things/main
+
+
 function trident:dimension_nickname/main
+
 function trident:end_crystals/main
 function trident:end_falling_loop/main
 function trident:stonecutter_damage/main
 execute as @e[type = #arrows] at @s run function trident:arrows/main
+
+
 
 # scoreboard players enable @a blood.toggle
 # execute as @a[scores={blood.toggle=1}] run tellraw @s [{"text":"✔","color":"green"},{"text":" Эффекты крови при уроне ","color":"white"},{"text":"отключены","color":"red"}]
