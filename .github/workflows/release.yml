@@ -33,7 +33,7 @@ jobs:
         with:
           name: trident-${{ github.ref_name }}
           files: |
-            trident-tweaks.jar
+            trident-tweaks*.jar
           #body_path: RELEASE_NOTES.md
           #draft: true
           make_latest: true
