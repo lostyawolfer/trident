@@ -1,3 +1,5 @@
+execute unless score server-type server matches -2147483648..2147483647 run scoreboard players set server-type server 0
+
 execute if score started server matches 1.. run function true_ending:load
 execute if score started server matches 1.. run function ender_dragon:init
 scoreboard players set crystalcount trueEnding_settings 0
@@ -122,8 +124,15 @@ scoreboard objectives add deathglow.itemcount dummy
 
 
 team add b_overworld {"text":"overworld","color":"dark_green"}
+team add b_overworld_creative {"text":"overworld","color":"dark_green"}
 team add c_nether {"text":"nether","color":"dark_red"}
+team add c_nether_creative {"text":"nether","color":"dark_red"}
 team add a_end {"text":"end","color":"light_purple"}
+team add a_end_creative {"text":"end","color":"light_purple"}
+
+team modify b_overworld_creative prefix {"text": "♦", "color": "green"}
+team modify c_nether_creative prefix {"text": "♦", "color": "green"}
+team modify a_end_creative prefix {"text": "♦", "color": "green"}
 
 team add y_spectator {"text":"spectator","color":"light_purple"}
 team add z_logging {"text":"logging in","color":"dark_aqua"}
@@ -131,11 +140,14 @@ team add z_logging {"text":"logging in","color":"dark_aqua"}
 team modify z_logging seeFriendlyInvisibles false
 
 team modify b_overworld color green
+team modify b_overworld_creative color green
 team modify c_nether color red
+team modify c_nether_creative color red
 team modify a_end color dark_purple
+team modify a_end_creative color dark_purple
 
 team modify y_spectator color dark_gray
-team modify z_logging color dark_gray
+#team modify z_logging color dark_gray
 
 scoreboard objectives add end_crystal_amount dummy
 

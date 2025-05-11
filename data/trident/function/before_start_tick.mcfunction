@@ -169,9 +169,9 @@ execute if score start.counter server matches 0 run scoreboard players set start
 
 
 
-styledplayerlist switchothers @a[scores={detailed_tablist=0}] default_spectator
-styledplayerlist switchothers @a[scores={detailed_tablist=1}] expanded_spectator
-styledplayerlist switchothers @a[scores={detailed_tablist=2}] mobcaps_spectator
+styledplayerlist switchothers @a[scores={detailed_tablist=0}] default_overworld
+styledplayerlist switchothers @a[scores={detailed_tablist=1}] expanded_overworld
+styledplayerlist switchothers @a[scores={detailed_tablist=2}] mobcaps_overworld
 
 scoreboard players enable @a detailed_tablist
 scoreboard players set @a[scores={detailed_tablist=3..}] detailed_tablist 0

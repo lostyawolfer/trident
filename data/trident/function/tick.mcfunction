@@ -1,3 +1,8 @@
+execute if score server-type server matches 1 unless score started server matches 10.. run scoreboard players set started server 10
+execute if score server-type server matches 1 run kill @e[type=ender_dragon]
+execute if score server-type server matches 1 run tag @a[tag=!randomtp.test_realm] add randomtp
+execute if score server-type server matches 1 run tag @a[tag=!randomtp.test_realm] add randomtp.test_realm
+
 execute unless score started server matches 1.. run return run function trident:before_start_tick
 execute if score started server matches 1 run gamerule doDaylightCycle true
 execute if score started server matches 1 run gamerule doWeatherCycle true
@@ -93,10 +98,7 @@ execute as @a[scores={totemofkeeping.death=1..}, tag= keepInventoryOnce, tag=!ke
 
 function trident:death_items_glow/main
 function trident:death_things/main
-
-
 function trident:dimension_nickname/main
-
 function trident:end_crystals/main
 function trident:end_falling_loop/main
 function trident:stonecutter_damage/main
