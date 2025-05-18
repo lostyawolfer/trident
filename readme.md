@@ -49,6 +49,7 @@ this space is supposed to be a credit space for all of those.
     - blockExplosionDropDecay = false
     - doInsomnia = false
     - playersNetherPortalDefaultDelay = 20
+    - minecartMaxSpeed = 100
 - hostile monsters mobcap is at 40 (using carpet mod)
 - worldborder is at 50k / -50k in all directions in all dimensions
 - everyone's first spawn is random within said border (instead of everyone spawning in the same place)
