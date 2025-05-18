@@ -2,7 +2,7 @@
   "style_name": "nether",
   "update_tick_time": 1,
   "list_header": [
-    "<gr:gray:dark_gray>+-<st>                    </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident </gr></bold><aqua>🔱</aqua> <gr:dark_gray:gray><st>                    </st>-+</gr>",
+    "<gr:red:yellow>+-<st>           </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident: </gr><gr:#F1C40F:#E67E22>Test Realm </bold><aqua>🔱</aqua> <gr:yellow:red><st>           </st>-+</gr>",
     "",
     "<#3ABDA5><bold>%server:online%</bold> <#1A564B><lang:'trident.tablist.online'>"
   ],
@@ -19,7 +19,7 @@
     "<dark_aqua><bold>%world:mob_count water_ambient%</bold><dark_gray>/%world:mob_cap water_ambient% water ambient",
     "<white><bold>%world:mob_count misc%</bold><dark_gray>/%world:mob_cap misc% misc",
     "",
-    "<gr:gray:dark_gray>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:dark_gray:gray><st>                            </st>-+</gr>"
+    "<gr:red:yellow>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:yellow:red><st>                            </st>-+</gr>"
   ],
   "hidden_in_commands": true
 }

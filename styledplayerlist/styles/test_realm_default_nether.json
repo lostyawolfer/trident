@@ -1,0 +1,15 @@
+{
+  "style_name": "nether",
+  "update_tick_time": 1,
+  "list_header": [
+    "<gr:red:yellow>+-<st>           </st></gr> <aqua>🔱</aqua><bold><gr:#17B292:#23A559> Trident: </gr><gr:#F1C40F:#E67E22>Test Realm </bold><aqua>🔱</aqua> <gr:yellow:red><st>           </st>-+</gr>",
+    "",
+    "<#3ABDA5><bold>%server:online%</bold> <#1A564B><lang:'trident.tablist.online'>"
+  ],
+  "list_footer": [
+    "<#23A559><bold>%server:tps_colored%</bold><dark_gray> tps           <dark_gray><lang:'trident.tablist.ping'> <#23A559><bold>%player:ping_colored%</bold><dark_gray><lang:'trident.tablist.ping.ms'>",
+    "",
+    "<gr:red:yellow>+-<st>                            </st></gr><bold><gold> X </gold></bold><gr:yellow:red><st>                            </st>-+</gr>"
+  ],
+  "hidden_in_commands": true
+}
