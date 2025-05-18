@@ -1,7 +1,11 @@
+execute unless score server-type.save server = server-type server run function trident:type_reload
+
+
+
 execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run playsound trident:mus_smile master @s
 execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run gamemode spectator @s
-execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run tp @s ~ 666 ~
 execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run effect give @s blindness infinite 0 true
+execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run tp @s ~ 666 ~
 execute positioned 0 0 0 as @a[distance=..1, tag=!secret] run tag @s add secret
 
 execute if score server-type server matches 1 unless score started server matches 10.. run scoreboard players set started server 10

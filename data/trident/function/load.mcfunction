@@ -29,7 +29,8 @@ scoreboard objectives add detailed_tablist trigger
 
 forceload add 24000 24000
 setblock 24000 319 24000 bedrock
-setworldspawn 24000 320 24000
+execute unless score server-type server matches 1 run setworldspawn 24000 320 24000
+execute if score server-type server matches 1 run setworldspawn 0 0 0
 
 execute in minecraft:overworld run worldborder set 100000
 execute in minecraft:the_nether run worldborder set 100000
